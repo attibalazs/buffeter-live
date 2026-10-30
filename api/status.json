@@ -1,0 +1,92 @@
+{
+  "is_scanning": false,
+  "last_scan_time": "2026-10-30 16:41:44",
+  "scan_error": null,
+  "total_assets": 49,
+  "scheduled_time": "Automated via GitHub Actions (Daily Snapshot)",
+  "container": "github-pages-static",
+  "image": "buffetter-static:latest",
+  "status": "Static Snapshot",
+  "uptime": "Edge CDN",
+  "port_mapping": "HTTPS (443)",
+  "host_port": 443,
+  "endpoints": [
+    {
+      "name": "System Health",
+      "path": "/api/status",
+      "status": "200 OK",
+      "method": "GET"
+    },
+    {
+      "name": "Smart Money Signals",
+      "path": "/api/signals",
+      "status": "200 OK",
+      "method": "GET"
+    },
+    {
+      "name": "Macro Intelligence",
+      "path": "/api/macro",
+      "status": "200 OK",
+      "method": "GET"
+    },
+    {
+      "name": "Opportunity Scan",
+      "path": "/api/scan",
+      "status": "200 OK",
+      "method": "GET"
+    },
+    {
+      "name": "Upcoming IPO Radar",
+      "path": "/api/ipo",
+      "status": "200 OK",
+      "method": "GET"
+    }
+  ],
+  "system": {
+    "container": "buffetter",
+    "image": "buffetter-buffetter:latest",
+    "is_docker": false,
+    "status": "Healthy",
+    "uptime": "0m 5s",
+    "uptime_seconds": 5,
+    "port_mapping": "0.0.0.0:8000 -> 8000/tcp",
+    "host_port": 8000,
+    "scheduled_time": "Mon-Fri at 10:30 ET (1hr post US Open)",
+    "schedule_label": "Mon-Fri at 10:30 ET (14:30 UTC) \u2022 1hr Post US Open",
+    "gemini_active": false,
+    "catalyst_engine": "Quantitative Heuristic Synthesis",
+    "endpoints": [
+      {
+        "name": "System Health",
+        "path": "/api/status",
+        "status": "200 OK",
+        "method": "GET"
+      },
+      {
+        "name": "Smart Money Signals",
+        "path": "/api/signals",
+        "status": "200 OK",
+        "method": "GET"
+      },
+      {
+        "name": "Macro Intelligence",
+        "path": "/api/macro",
+        "status": "200 OK",
+        "method": "GET"
+      },
+      {
+        "name": "Opportunity Scan",
+        "path": "/api/scan",
+        "status": "200 OK",
+        "method": "GET"
+      },
+      {
+        "name": "Upcoming IPO Radar",
+        "path": "/api/ipo",
+        "status": "200 OK",
+        "method": "GET"
+      }
+    ],
+    "mode": "static"
+  }
+}

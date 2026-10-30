@@ -1,0 +1,464 @@
+{
+  "model_metadata": {
+    "model_name": "Buffetter-Quant-HGB-v2-MultiSector",
+    "version": "2.0.0",
+    "algorithm": "HistGradientBoostingRegressor & HistGradientBoostingClassifier",
+    "framework": "Scikit-Learn (Histogram Gradient Boosting with Monotonic Constraints)",
+    "dataset_rows": 361815,
+    "dataset_features": 85,
+    "dataset_targets": 24,
+    "universe_assets": 138,
+    "sectors_count": 11,
+    "history_range": "2014-12-16 to 2026-10-10 (12 Continuous Years)",
+    "training_window": "2014-12-16 to 2024-04-09 (Expanding Walk-Forward)",
+    "out_of_sample_window": "2024-04-09 to 2026-04-13 (Zero Lookahead)",
+    "horizons": [
+      "3 Months (63D)",
+      "6 Months (126D)",
+      "12 Months (252D)"
+    ],
+    "rebalance_frequency": "Quarterly (63 Trading Days)",
+    "benchmark": "S&P 500 ETF Trust (SPY)",
+    "rank_ic_12m": 0.2536,
+    "rank_ic_6m": 0.1244
+  },
+  "backtest": {
+    "rebalance_horizon": "63D (Quarterly)",
+    "start_date": "2017-11-24",
+    "end_date": "2025-12-24",
+    "total_periods": 34,
+    "strict_purging": true,
+    "purge_horizon_days": 126,
+    "transaction_cost_bps": 15.0,
+    "q5_strategy_metrics": {
+      "total_return": 2.2644,
+      "cagr": 0.1493,
+      "sharpe_ratio": 0.5161,
+      "sortino_ratio": 0.9099,
+      "max_drawdown": 0.4087,
+      "calmar_ratio": 0.3654,
+      "annualized_volatility": 0.2409,
+      "win_rate": 0.6471,
+      "alpha_annualized": -0.0027,
+      "beta": 1.3872,
+      "information_ratio": 0.2394
+    },
+    "q1_bottom_metrics": {
+      "total_return": 1.5152,
+      "cagr": 0.1146,
+      "sharpe_ratio": 0.3915,
+      "sortino_ratio": 0.6301,
+      "max_drawdown": 0.3028,
+      "calmar_ratio": 0.3785,
+      "annualized_volatility": 0.2289,
+      "win_rate": 0.4118,
+      "alpha_annualized": -0.0149,
+      "beta": 1.1412,
+      "information_ratio": -0.0126
+    },
+    "long_short_metrics": {
+      "total_return": 0.1362,
+      "cagr": 0.0151,
+      "sharpe_ratio": -0.0491,
+      "sortino_ratio": -0.0745,
+      "max_drawdown": 0.4475,
+      "calmar_ratio": 0.0338,
+      "annualized_volatility": 0.201,
+      "win_rate": 0.5882,
+      "alpha_annualized": -0.0099,
+      "beta": 0.0,
+      "information_ratio": 0.0753
+    },
+    "benchmark_spy_metrics": {
+      "total_return": 1.5528,
+      "cagr": 0.1166,
+      "sharpe_ratio": 0.6152,
+      "sortino_ratio": 1.0386,
+      "max_drawdown": 0.2098,
+      "calmar_ratio": 0.5557,
+      "annualized_volatility": 0.1488,
+      "win_rate": 0.0,
+      "alpha_annualized": 0.0,
+      "beta": 1.0,
+      "information_ratio": 0.0
+    },
+    "yearly_returns": [
+      {
+        "year": 2017,
+        "q5_return_pct": 10.22,
+        "spy_return_pct": 5.94,
+        "alpha_pct": 4.27,
+        "ls_return_pct": 12.42
+      },
+      {
+        "year": 2018,
+        "q5_return_pct": 8.89,
+        "spy_return_pct": 1.49,
+        "alpha_pct": 7.4,
+        "ls_return_pct": -3.82
+      },
+      {
+        "year": 2019,
+        "q5_return_pct": 33.9,
+        "spy_return_pct": 25.98,
+        "alpha_pct": 7.92,
+        "ls_return_pct": 22.49
+      },
+      {
+        "year": 2020,
+        "q5_return_pct": 45.86,
+        "spy_return_pct": 18.06,
+        "alpha_pct": 27.8,
+        "ls_return_pct": 5.32
+      },
+      {
+        "year": 2021,
+        "q5_return_pct": -0.88,
+        "spy_return_pct": 18.51,
+        "alpha_pct": -19.4,
+        "ls_return_pct": -13.35
+      },
+      {
+        "year": 2022,
+        "q5_return_pct": -22.61,
+        "spy_return_pct": -14.09,
+        "alpha_pct": -8.52,
+        "ls_return_pct": -7.8
+      },
+      {
+        "year": 2023,
+        "q5_return_pct": 21.59,
+        "spy_return_pct": 22.23,
+        "alpha_pct": -0.64,
+        "ls_return_pct": -18.81
+      },
+      {
+        "year": 2024,
+        "q5_return_pct": 32.15,
+        "spy_return_pct": 28.0,
+        "alpha_pct": 4.14,
+        "ls_return_pct": 15.65
+      },
+      {
+        "year": 2025,
+        "q5_return_pct": 12.99,
+        "spy_return_pct": 0.2,
+        "alpha_pct": 12.79,
+        "ls_return_pct": 8.58
+      }
+    ],
+    "equity_curve": [
+      {
+        "date": "2017-11-24",
+        "q5": 110.22,
+        "spy": 105.94,
+        "ls": 112.42
+      },
+      {
+        "date": "2018-02-23",
+        "q5": 114.55,
+        "spy": 105.63,
+        "ls": 111.14
+      },
+      {
+        "date": "2018-05-24",
+        "q5": 122.51,
+        "spy": 111.15,
+        "ls": 115.32
+      },
+      {
+        "date": "2018-08-22",
+        "q5": 104.56,
+        "spy": 103.05,
+        "ls": 100.34
+      },
+      {
+        "date": "2018-11-19",
+        "q5": 120.02,
+        "spy": 107.52,
+        "ls": 108.13
+      },
+      {
+        "date": "2019-02-18",
+        "q5": 120.89,
+        "spy": 111.56,
+        "ls": 114.43
+      },
+      {
+        "date": "2019-05-17",
+        "q5": 120.87,
+        "spy": 113.28,
+        "ls": 113.73
+      },
+      {
+        "date": "2019-08-15",
+        "q5": 129.58,
+        "spy": 123.58,
+        "ls": 119.76
+      },
+      {
+        "date": "2019-11-12",
+        "q5": 160.71,
+        "spy": 135.46,
+        "ls": 132.44
+      },
+      {
+        "date": "2020-02-11",
+        "q5": 138.76,
+        "spy": 116.51,
+        "ls": 134.57
+      },
+      {
+        "date": "2020-05-11",
+        "q5": 163.97,
+        "spy": 134.25,
+        "ls": 138.85
+      },
+      {
+        "date": "2020-08-07",
+        "q5": 182.41,
+        "spy": 141.1,
+        "ls": 155.98
+      },
+      {
+        "date": "2020-11-04",
+        "q5": 234.4,
+        "spy": 159.93,
+        "ls": 139.49
+      },
+      {
+        "date": "2021-02-03",
+        "q5": 228.28,
+        "spy": 174.69,
+        "ls": 127.17
+      },
+      {
+        "date": "2021-05-04",
+        "q5": 252.23,
+        "spy": 186.03,
+        "ls": 135.3
+      },
+      {
+        "date": "2021-08-02",
+        "q5": 275.6,
+        "spy": 195.86,
+        "ls": 138.95
+      },
+      {
+        "date": "2021-10-28",
+        "q5": 232.33,
+        "spy": 189.53,
+        "ls": 120.86
+      },
+      {
+        "date": "2022-01-25",
+        "q5": 195.32,
+        "spy": 182.08,
+        "ls": 99.8
+      },
+      {
+        "date": "2022-04-25",
+        "q5": 166.4,
+        "spy": 166.81,
+        "ls": 96.41
+      },
+      {
+        "date": "2022-07-21",
+        "q5": 162.96,
+        "spy": 154.78,
+        "ls": 114.02
+      },
+      {
+        "date": "2022-10-18",
+        "q5": 179.8,
+        "spy": 162.82,
+        "ls": 111.44
+      },
+      {
+        "date": "2023-01-17",
+        "q5": 183.31,
+        "spy": 170.2,
+        "ls": 105.35
+      },
+      {
+        "date": "2023-04-17",
+        "q5": 199.03,
+        "spy": 187.44,
+        "ls": 86.19
+      },
+      {
+        "date": "2023-07-14",
+        "q5": 196.65,
+        "spy": 181.57,
+        "ls": 92.43
+      },
+      {
+        "date": "2023-10-11",
+        "q5": 218.63,
+        "spy": 199.03,
+        "ls": 90.48
+      },
+      {
+        "date": "2024-01-10",
+        "q5": 241.84,
+        "spy": 217.01,
+        "ls": 98.76
+      },
+      {
+        "date": "2024-04-09",
+        "q5": 274.29,
+        "spy": 235.31,
+        "ls": 113.86
+      },
+      {
+        "date": "2024-07-08",
+        "q5": 271.59,
+        "spy": 243.56,
+        "ls": 102.04
+      },
+      {
+        "date": "2024-10-03",
+        "q5": 288.91,
+        "spy": 254.76,
+        "ls": 104.64
+      },
+      {
+        "date": "2025-01-02",
+        "q5": 256.83,
+        "spy": 220.84,
+        "ls": 111.51
+      },
+      {
+        "date": "2025-04-01",
+        "q5": 319.86,
+        "spy": 244.98,
+        "ls": 128.95
+      },
+      {
+        "date": "2025-07-01",
+        "q5": 358.98,
+        "spy": 264.96,
+        "ls": 134.54
+      },
+      {
+        "date": "2025-09-26",
+        "q5": 383.32,
+        "spy": 277.19,
+        "ls": 141.13
+      },
+      {
+        "date": "2025-12-24",
+        "q5": 326.44,
+        "spy": 255.28,
+        "ls": 113.62
+      }
+    ]
+  },
+  "feature_rankings": [
+    {
+      "rank": 1,
+      "name": "pct_from_52w_low",
+      "category": "52W Range & Cycle",
+      "importance": 0.5052,
+      "description": "Discount from 52-week cycle base (asymmetric value accumulation)"
+    },
+    {
+      "rank": 2,
+      "name": "volatility_63d",
+      "category": "Volatility & Risk",
+      "importance": 0.4959,
+      "description": "3-month realized annualized price volatility and risk regime"
+    },
+    {
+      "rank": 3,
+      "name": "rolling_beta_63d",
+      "category": "Relative Strength & Beta",
+      "importance": 0.4928,
+      "description": "63-day market beta sensitivity and risk co-movement"
+    },
+    {
+      "rank": 4,
+      "name": "volatility_21d",
+      "category": "Volatility & Risk",
+      "importance": 0.4398,
+      "description": "1-month short-term realized volatility"
+    },
+    {
+      "rank": 5,
+      "name": "rel_strength_spy_252d",
+      "category": "Relative Strength & Beta",
+      "importance": 0.4359,
+      "description": "12-month persistent relative alpha vs S&P 500"
+    },
+    {
+      "rank": 6,
+      "name": "atr_14_pct",
+      "category": "Volatility & Risk",
+      "importance": 0.4314,
+      "description": "Average True Range as % of price (volatility sizing)"
+    },
+    {
+      "rank": 7,
+      "name": "volatility_stop_pct",
+      "category": "Volatility & Risk",
+      "importance": 0.4314,
+      "description": "Distance to 2.5x ATR dynamic trailing stop"
+    },
+    {
+      "rank": 8,
+      "name": "rolling_sector_beta_63d",
+      "category": "Sector Relative",
+      "importance": 0.4146,
+      "description": "63-day rolling beta vs sector ETF benchmark"
+    },
+    {
+      "rank": 9,
+      "name": "return_252d",
+      "category": "Momentum & Trend",
+      "importance": 0.3922,
+      "description": "TTM 1-year primary secular price trend momentum"
+    },
+    {
+      "rank": 10,
+      "name": "bb_bandwidth",
+      "category": "Volatility & Risk",
+      "importance": 0.3857,
+      "description": "Bollinger band compression / volatility squeeze gauge"
+    },
+    {
+      "rank": 11,
+      "name": "rel_strength_sector_252d",
+      "category": "Sector Relative",
+      "importance": 0.3618,
+      "description": "12-month pure sector-neutral relative alpha spread"
+    },
+    {
+      "rank": 12,
+      "name": "rel_strength_spy_126d",
+      "category": "Relative Strength & Beta",
+      "importance": 0.3749,
+      "description": "6-month intermediate outperformance spread vs SPY"
+    },
+    {
+      "rank": 13,
+      "name": "days_since_ipo",
+      "category": "IPO Dynamics & Lock-Up",
+      "importance": 0.2259,
+      "description": "Post-listing maturation and 180-day lock-up expiration cliff flag"
+    },
+    {
+      "rank": 14,
+      "name": "whale_manager_count",
+      "category": "Smart Money & Whales",
+      "importance": 0.1889,
+      "description": "Number of 13F whale super-investors holding active positions"
+    },
+    {
+      "rank": 15,
+      "name": "is_whale_holding",
+      "category": "Smart Money & Whales",
+      "importance": 0.1798,
+      "description": "13F whale super-investor conviction backing (Buffett, Burry, Ackman)"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "settings": {
+    "base_currency": "GBP",
+    "default_timeframe": "6mo",
+    "min_confidence_threshold": 70
+  },
+  "items": [
+    {
+      "name": "Rolls-Royce Holdings PLC",
+      "symbol": "RR.L",
+      "category": "stock",
+      "notes": "Civil aerospace flying hours recovery & SMR nuclear",
+      "currency": "GBp"
+    },
+    {
+      "name": "NVIDIA Corp",
+      "symbol": "NVDA",
+      "category": "stock",
+      "notes": "AI datacenter compute monopoly & accelerator leader capturing majority AI cycle profits",
+      "currency": "USD"
+    },
+    {
+      "name": "FTSE 100 Index",
+      "symbol": "^FTSE",
+      "category": "index",
+      "notes": "UK Large-cap benchmark index"
+    },
+    {
+      "name": "iShares Core S&P 500 UCITS ETF (Acc)",
+      "symbol": "CSPX.L",
+      "category": "etf",
+      "notes": "Core global equity allocation",
+      "currency": "GBp"
+    },
+    {
+      "name": "iShares Edge MSCI World Value Factor UCITS ETF",
+      "symbol": "IWFV.L",
+      "category": "etf",
+      "notes": "Global developed market value factor equity ETF",
+      "currency": "GBp"
+    },
+    {
+      "name": "WisdomTree Europe Defence UCITS ETF",
+      "symbol": "WDEF.L",
+      "category": "etf",
+      "notes": "European aerospace, defence contractors & security technology ETF",
+      "currency": "EUR"
+    },
+    {
+      "name": "Tesla Inc",
+      "symbol": "TSLA",
+      "category": "stock",
+      "notes": "EV and autonomous driving",
+      "currency": "USD"
+    },
+    {
+      "name": "Salesforce Inc",
+      "symbol": "CRM",
+      "category": "stock",
+      "target_buy": 237.58,
+      "target_sell": 287.08,
+      "notes": "Enterprise CRM & Agentforce AI SaaS (14.4x Fwd P/E, 0.82 PEG, 7/9 F-Score, CMF +0.11 positive money flow). Watching for Anchored VWAP reclaim ($237.58) to confirm breakout.",
+      "currency": "USD"
+    },
+    {
+      "name": "Vanguard S&P 500 UCITS ETF",
+      "symbol": "VUSA.L",
+      "category": "etf",
+      "notes": "S&P 500 Core Index Tracker",
+      "currency": "GBP"
+    },
+    {
+      "name": "Figma Inc",
+      "symbol": "FIG",
+      "category": "stock",
+      "notes": "Collaborative design & UI platform",
+      "currency": "USD"
+    },
+    {
+      "name": "Meta Platforms Inc",
+      "symbol": "META",
+      "category": "stock",
+      "target_buy": 670.5,
+      "target_sell": 848.38,
+      "notes": "Social ecosystem & open-source AI (17.4x Fwd P/E, 0.82 PEG, 9/9 F-Score). Post-earnings CapEx flush (-15.0% 30d to $618.62, RSI 33.9, RVOL 0.23x). Watching for Anchored VWAP reclaim ($670.50) & CMF > 0 before adding above initial 6.25% weight.",
+      "currency": "USD"
+    },
+    {
+      "name": "Alphabet Inc (Google)",
+      "symbol": "GOOGL",
+      "category": "stock",
+      "target_buy": 280.34,
+      "target_sell": 400.28,
+      "notes": "Search, Cloud & Gemini AI infrastructure (18.5x Fwd P/E, 1.00 PEG, 8/9 F-Score, $39.1B Qtr OCF). Post-CapEx flush (-18.5% 30d to $280.04, RSI 21.4) sitting $0.30 below $280.34 Anchored VWAP; watching for AVWAP reclaim to confirm reversal.",
+      "currency": "USD"
+    },
+    {
+      "name": "Amazon.com Inc",
+      "symbol": "AMZN",
+      "category": "stock",
+      "notes": "E-commerce, AWS Cloud & Bedrock AI infrastructure",
+      "currency": "USD"
+    },
+    {
+      "name": "Microsoft Corp",
+      "symbol": "MSFT",
+      "category": "stock",
+      "notes": "Enterprise Cloud & OpenAI partner",
+      "currency": "USD"
+    },
+    {
+      "name": "Apple Inc",
+      "symbol": "AAPL",
+      "category": "stock",
+      "notes": "Consumer hardware & Services ecosystem",
+      "currency": "USD"
+    },
+    {
+      "name": "Reddit Inc",
+      "symbol": "RDDT",
+      "category": "stock",
+      "target_buy": 97.61,
+      "target_sell": 139.01,
+      "notes": "Community platform & AI data licensing (9.9x Fwd P/E, 0.65 PEG, 9/9 F-Score, $261M Qtr FCF). Watching post-earnings -26% crash ($95.87, RSI 18.3, 2.29x RVOL) for Anchored VWAP reclaim ($97.61), RVOL < 1.0x, and CMF > 0 before deploying 1x $1k probe.",
+      "currency": "USD"
+    },
+    {
+      "name": "QuantumScape Corp",
+      "symbol": "QS",
+      "category": "stock",
+      "notes": "Solid-state EV battery developer",
+      "currency": "USD"
+    },
+    {
+      "name": "Berkshire Hathaway Inc",
+      "symbol": "BRK-B",
+      "category": "stock",
+      "notes": "Diversified conglomerate & value holding",
+      "currency": "USD"
+    },
+    {
+      "name": "Raspberry Pi Holdings PLC",
+      "symbol": "RPI.L",
+      "category": "stock",
+      "notes": "Single-board computing & industrial IoT edge devices",
+      "currency": "GBp"
+    },
+    {
+      "name": "Advanced Micro Devices Inc",
+      "symbol": "AMD",
+      "category": "stock",
+      "target_buy": 565.23,
+      "target_sell": 640.21,
+      "notes": "Semiconductors, CPUs & Instinct AI accelerators (32.1x Fwd P/E, 0.56 PEG, 9/9 F-Score, CMF +0.07). Down -19.4% 30d ($511.17, RSI 40.6) with binary earnings in 4 days; watching for post-earnings Anchored VWAP reclaim ($565.23).",
+      "currency": "USD"
+    },
+    {
+      "name": "Cloudflare Inc",
+      "symbol": "NET",
+      "category": "stock",
+      "notes": "Global cloud security, edge compute network & CDN infrastructure",
+      "currency": "USD"
+    },
+    {
+      "name": "Block Inc",
+      "symbol": "XYZ",
+      "category": "stock",
+      "target_buy": 76.4,
+      "target_sell": 97.91,
+      "notes": "Square & Cash App financial ecosystem (14.5x Fwd P/E, 0.59 PEG, 7/9 F-Score, CMF +0.16). Reports earnings in 4 days ($75.58); watching for post-earnings Anchored VWAP reclaim ($76.40) before deploying 1x $1k tranche.",
+      "currency": "USD"
+    },
+    {
+      "name": "Adobe Inc",
+      "symbol": "ADBE",
+      "category": "stock",
+      "notes": "Creative Cloud & Firefly AI generative suite",
+      "currency": "USD"
+    },
+    {
+      "name": "Shell PLC",
+      "symbol": "SHEL.L",
+      "category": "stock",
+      "notes": "Integrated energy & LNG, oil price hedge and dividend buyback engine",
+      "currency": "GBp"
+    },
+    {
+      "name": "Taiwan Semiconductor",
+      "symbol": "TSM",
+      "category": "stock",
+      "notes": "Sole advanced chip foundry for NVDA, AMD, and Apple",
+      "currency": "USD"
+    },
+    {
+      "name": "Constellation Energy",
+      "symbol": "CEG",
+      "category": "stock",
+      "notes": "Clean nuclear baseload power provider for AI data centers",
+      "currency": "USD"
+    },
+    {
+      "name": "JPMorgan Chase",
+      "symbol": "JPM",
+      "category": "stock",
+      "notes": "Tier-1 global bank benefiting from elevated bond yields & steep curve",
+      "currency": "USD"
+    },
+    {
+      "name": "AstraZeneca PLC",
+      "symbol": "AZN.L",
+      "category": "stock",
+      "notes": "Oncology and rare disease pipeline, defensive cash flows",
+      "currency": "GBp"
+    },
+    {
+      "name": "ASML Holding N.V.",
+      "symbol": "ASML",
+      "category": "stock",
+      "notes": "EUV lithography monopoly required for sub-3nm microchips",
+      "currency": "USD"
+    },
+    {
+      "name": "iShares Physical Gold ETC",
+      "symbol": "SGLN.L",
+      "category": "etf",
+      "notes": "Physical gold backed ETC for inflation & safe haven hedge",
+      "currency": "GBp"
+    },
+    {
+      "name": "Vanguard FTSE All-World UCITS ETF",
+      "symbol": "VWRP.L",
+      "category": "etf",
+      "notes": "Core global developed and emerging market equity allocation (Acc)",
+      "currency": "GBP"
+    },
+    {
+      "name": "Amundi Smart Overnight Return",
+      "symbol": "CSH2.L",
+      "category": "cash",
+      "notes": "GBP overnight cash yield (SONIA) for risk-free dry powder",
+      "currency": "GBp"
+    },
+    {
+      "name": "VanEck Semiconductor UCITS ETF",
+      "symbol": "SMGB.L",
+      "category": "etf",
+      "notes": "Low-cost (0.35% TER) pure-play semiconductor ETF (US-listed leaders: NVDA, TSM, AVGO, ASML, AMD, MU)",
+      "currency": "GBP"
+    },
+    {
+      "name": "Vanguard FTSE Emerging Markets",
+      "symbol": "VFEM.L",
+      "category": "etf",
+      "notes": "Emerging market equity growth (Taiwan, India, Latin America)",
+      "currency": "GBP"
+    },
+    {
+      "name": "Vanguard FTSE 250 UCITS ETF",
+      "symbol": "VMID.L",
+      "category": "etf",
+      "notes": "UK domestic mid-cap recovery and rate-cut beneficiary ETF",
+      "currency": "GBP"
+    },
+    {
+      "name": "Qualcomm Inc",
+      "symbol": "QCOM",
+      "category": "stock",
+      "notes": "Wireless 5G modems, mobile SoCs, automotive Snapdragon & on-device edge AI",
+      "currency": "USD"
+    },
+    {
+      "name": "Shopify Inc",
+      "symbol": "SHOP",
+      "category": "stock",
+      "notes": "Global e-commerce platform, merchant solutions & Shop Pay ecosystem",
+      "currency": "USD"
+    },
+    {
+      "name": "Okta Inc",
+      "symbol": "OKTA",
+      "category": "stock",
+      "notes": "Cloud identity and access management (IAM) security platform",
+      "currency": "USD"
+    },
+    {
+      "name": "ServiceNow Inc",
+      "symbol": "NOW",
+      "category": "stock",
+      "target_buy": 107.76,
+      "target_sell": 155.17,
+      "notes": "Cloud enterprise platform & AI workflow harvester ($748M Qtr FCF, +58% QoQ, 7/9 F-Score). Watching post-earnings selloff ($106.77, RSI 27.4, 0.49x RVOL) for Anchored VWAP reclaim ($107.76) and CMF > 0 before deploying 1x $1k probe.",
+      "currency": "USD"
+    },
+    {
+      "name": "SentinelOne Inc",
+      "symbol": "S",
+      "category": "stock",
+      "notes": "Autonomous AI endpoint cybersecurity & Singularity XDR cloud security platform",
+      "currency": "USD"
+    },
+    {
+      "name": "iShares U.S. Aerospace & Defense ETF",
+      "symbol": "ITA",
+      "category": "etf",
+      "notes": "US aerospace, defense primes, avionics & tactical UAS ETF",
+      "currency": "USD"
+    },
+    {
+      "name": "Bending Spoons S.p.A.",
+      "symbol": "BSP",
+      "category": "stock",
+      "notes": "Digital business acquisitions (Evernote, Meetup, Splice, WeTransfer, StreamYard) & SaaS transformation"
+    },
+    {
+      "name": "Novo Nordisk A/S",
+      "symbol": "NVO",
+      "category": "stock",
+      "notes": "GLP-1 diabetes and obesity therapeutics leader (Ozempic, Wegovy)",
+      "currency": "USD"
+    },
+    {
+      "name": "Micron Technology Inc",
+      "symbol": "MU",
+      "category": "stock",
+      "notes": "High-Bandwidth Memory (HBM3E) & high-density DRAM leader for AI accelerators",
+      "currency": "USD"
+    },
+    {
+      "name": "Broadcom Inc",
+      "symbol": "AVGO",
+      "category": "stock",
+      "notes": "Custom AI ASIC co-development (Google TPU, Meta MTIA) & Tomahawk AI networking",
+      "currency": "USD"
+    },
+    {
+      "name": "SK Hynix Inc",
+      "symbol": "000660.KS",
+      "category": "stock",
+      "notes": "World leader in High-Bandwidth Memory (HBM3/HBM3E) for AI GPUs; primary Nvidia memory partner (held via SEMI.L in UK ISAs)",
+      "currency": "KRW"
+    },
+    {
+      "name": "iShares MSCI Global Semiconductors UCITS ETF",
+      "symbol": "SEMI.L",
+      "category": "etf",
+      "notes": "Low-cost (0.35% TER) ISA-eligible global chip ETF; uniquely holds SK Hynix (~5% weight), NVDA, AVGO, & MU",
+      "currency": "GBP"
+    },
+    {
+      "name": "Baidu",
+      "symbol": "BIDU",
+      "category": "stock",
+      "target_buy": 77.0,
+      "target_sell": 134.95,
+      "notes": "China search, cloud & Apollo autonomous driving (11.0x Fwd P/E, 0.69 PEG, 6/9 F-Score, CMF +0.05, Burry 13F contrarian value). Oversold at $76.84 (RSI 30.7, RVOL 0.25x), sitting $0.16 below $77.00 Anchored VWAP; watching for AVWAP reclaim.",
+      "currency": "USD"
+    },
+    {
+      "name": "iShares MSCI China Tech ETF",
+      "symbol": "CTCE.L",
+      "category": "etf"
+    }
+  ]
+}

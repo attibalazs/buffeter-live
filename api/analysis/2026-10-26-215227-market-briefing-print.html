@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market Memo: Signal-Justified Theses &amp; Quarter-Kelly Bet Plan — Buffetter Research</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --card-bg: #f8fafc;
+      --accent: #0284c7;
+      --accent-soft: #e0f2fe;
+      --code-bg: #f1f5f9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f1f5f9;
+      color: var(--fg);
+      margin: 0;
+      padding: 28px 16px;
+      line-height: 1.6;
+    }
+    .toolbar {
+      max-width: 900px;
+      margin: 0 auto 16px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-size: 13px;
+    }
+    .toolbar button {
+      background: #0ea5e9;
+      color: #0f172a;
+      border: none;
+      padding: 7px 14px;
+      border-radius: 6px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .toolbar button:hover { background: #38bdf8; }
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--bg);
+      padding: 40px 48px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      border: 1px solid var(--border);
+    }
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      font-size: 12px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: var(--muted);
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+    .badge {
+      background: var(--accent-soft);
+      color: #0369a1;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+    h1.doc-title {
+      font-size: 26px;
+      line-height: 1.25;
+      margin: 0 0 8px 0;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .doc-subtitle {
+      font-size: 14px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: var(--accent);
+      font-weight: 600;
+      margin: 0 0 24px 0;
+    }
+    h2.section-title {
+      font-size: 17px;
+      color: #0f172a;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+      margin-top: 28px;
+      margin-bottom: 14px;
+    }
+    h3.sub-title {
+      font-size: 14px;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+    ul.memo-list {
+      list-style: none;
+      padding: 0;
+      margin: 12px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    li.memo-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 14px 16px;
+      font-size: 13.5px;
+      page-break-inside: avoid;
+    }
+    .ticker-badge {
+      background: #0f172a;
+      color: #38bdf8;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-weight: 700;
+      font-size: 12.5px;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      color: #0f172a;
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      border: 1px solid #cbd5e1;
+    }
+    blockquote.callout {
+      margin: 14px 0;
+      padding: 12px 16px;
+      background: #f0f9ff;
+      border-left: 4px solid #0284c7;
+      border-radius: 6px;
+      font-size: 13px;
+      color: #0c4a6e;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      margin: 16px 0;
+      page-break-inside: avoid;
+    }
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    table.data-table th {
+      background: #0f172a;
+      color: #ffffff;
+      text-align: left;
+      padding: 8px 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+    table.data-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+      color: #1e293b;
+    }
+    table.data-table tr:nth-child(even) td {
+      background: #f8fafc;
+    }
+    .tracked-box {
+      margin-top: 28px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      page-break-inside: avoid;
+    }
+    .tracked-title {
+      font-size: 11px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      text-transform: uppercase;
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .tracked-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pick-chip {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 6px 10px;
+      font-size: 11.5px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .pick-sym { font-weight: 700; color: #0369a1; }
+    .pick-meta { color: var(--muted); font-size: 11px; }
+    .footer-note {
+      margin-top: 28px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+      font-size: 11px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+    }
+    @media print {
+      body { background: #ffffff; padding: 0; }
+      .toolbar { display: none !important; }
+      .page {
+        box-shadow: none;
+        border: none;
+        padding: 10px 14px;
+        max-width: 100%;
+      }
+    }
+  </style>
+  <script>window.addEventListener('load', () => { setTimeout(() => window.print(), 350); });</script>
+</head>
+<body>
+  <div class="toolbar">
+    <span><strong>Buffetter Institutional Research</strong> • 2026-10-26 21:52:27 UTC</span>
+    <div style="display:flex; gap:8px;">
+      <button onclick="window.print()">🖨️ Print / Save as PDF</button>
+    </div>
+  </div>
+  <article class="page">
+    <div class="meta-bar">
+      <span class="badge">BUFFETTER EXECUTIVE MEMO</span>
+      <span>🕒 2026-10-26 21:52:27 UTC</span>
+      <span>•</span>
+      <span>🌏 After-Hours &amp; Asia Session</span>
+      <span>•</span>
+      <span>Regime: <strong>STAGFLATION_CONCERN</strong></span>
+      <span>•</span>
+      <span>Bond Hurdle: <strong>4.5%</strong></span>
+    </div>
+    <h1 class="doc-title">Market Memo: Signal-Justified Theses &amp; Quarter-Kelly Bet Plan</h1>
+    <div class="doc-subtitle">Buy: MU, TSM, NVDA, ASML (Beat 4.5% Bond Hurdle) • Trim: BRK-B, SHEL.L</div>
+    <h2 class="section-title">1. The Bottom Line: What the Signals Say Right Now</h2><p class="para">With short-term gilts and US treasuries paying a risk-free <span class="ticker-badge">4.5%</span> (<code class="inline-code">Stagflation Concern</code> regime), cash is a high-bar competitor to equities. Out of <strong>49 tracked assets</strong>, <strong>40 fail</strong> to offer enough risk-adjusted return to justify leaving cash, and only <strong>9 setups</strong> (<code class="inline-code">MU</code>, <code class="inline-code">TSM</code>, <code class="inline-code">NVDA</code>, <code class="inline-code">ASML</code>, <code class="inline-code">XYZ</code>, <code class="inline-code">AVGO</code>) mathematically clear the <code class="inline-code">4.5%</code> Quarter-Kelly hurdle.</p><ul class="memo-list"><li class="memo-card"><strong>Why the Market Is Bifurcated:</strong> Across our 5 quantitative pillars, we see a sharp split between <strong>oversold secular compounders</strong> and <strong>overcrowded defensive/momentum trades</strong>. AI hardware and semiconductor leaders have pulled back <code class="inline-code">-6%</code> to <code class="inline-code">-14%</code> over the past month (<code class="inline-code">RSI 38–46</code>), dragging prices below short-term moving averages even as rapid earnings growth compresses their forward P/E multiples (<code class="inline-code">0.16–0.89 PEG</code>) and 13F super-investors accumulate. Meanwhile, defensive winners (<code class="inline-code">BRK-B</code>, <code class="inline-code">SHEL.L</code> at <code class="inline-code">RSI 73–76</code>) and extended mega-caps (<code class="inline-code">AAPL</code> at <code class="inline-code">36.4x P/E</code>) now trade right at or above Wall Street price targets, compressing their forward reward-to-risk below <code class="inline-code">0.5x</code>.</li><li class="memo-card"><strong>Portfolio Execution Plan (Unlinked Holdings Safeguard):</strong> Because existing portfolio positions are not linked by default, Quarter-Kelly caps any single new trade order at <strong><code class="inline-code">1–3 × $1k</code> (<code class="inline-code">$1,000–$3,000</code>, max <code class="inline-code">2.0%</code> of equity)</strong> and caps stop-loss risk at <strong><code class="inline-code">0.25%</code> (<code class="inline-code">$375</code>) per trade</strong>. Rather than buying the broad index, stage <span class="ticker-badge">$20,000</span> across the <code class="inline-code">9</code> asymmetric setups below (capping total portfolio risk if every volatility stop were hit simultaneously at <span class="ticker-badge">$1,864</span> or <span class="ticker-badge">1.24%</span> of a <code class="inline-code">$150k</code> portfolio), and keep remaining cash earning a guaranteed <code class="inline-code">4.5%</code>.</li></ul><h2 class="section-title">2. High-Conviction Buy Theses (Interpreting the Signal Confluence)</h2><ul class="memo-list"><li class="memo-card"><strong><code class="inline-code">MU</code> (Micron Technology Inc) @ <code class="inline-code">$910.04</code> — Oversold Quality Dip with Fortress Balance Sheet &amp; Multiple Compression</strong></li><li class="memo-card"><strong>Why It&#x27;s Mispriced:</strong> A <code class="inline-code">-13.6%</code> pullback over the past 30 days has washed out short-term momentum (<code class="inline-code">RSI 43</code> and below its <code class="inline-code">$969.46</code> Anchored VWAP) on muted <code class="inline-code">0.59x</code> relative volume (orderly profit-taking, not panic liquidation), creating a disconnect between weak near-term price action and accelerating fundamentals. The numbers justify buying the weakness: forward P/E compresses to <span class="ticker-badge">4.2x</span> down from <code class="inline-code">11.8x</code> trailing as earnings expand, a <strong><code class="inline-code">0.16</code> PEG ratio</strong> that prices in almost zero secular growth, a <strong><code class="inline-code">9/9</code> Piotroski F-Score</strong> and <code class="inline-code">100%</code> historical earnings beat rate confirming zero balance-sheet distress.</li><li class="memo-card"><strong>Signal &amp; Flow Justification:</strong> On the flow side, 13F filings show <strong>Inst. Accumulation (+2.3%)</strong>, US Congress disclosures show <strong>Split: 3 Buys / 4 Sells</strong>, corporate insiders are <strong>cluster-buying</strong>, retail sentiment is <code class="inline-code">WSB #3 (Bullish)</code>. Wall Street consensus sees <strong><code class="inline-code">+78.0%</code> upside</strong> to <code class="inline-code">$1,319.56</code>.</li><li class="memo-card"><strong>Kelly Bet &amp; Risk Math:</strong> <strong><code class="inline-code">3 × $1k</code> (<code class="inline-code">$3,000</code> tactical entry / <code class="inline-code">1.8%</code> of portfolio, <code class="inline-code">3</code> shares)</strong> — With <code class="inline-code">+45.0%</code> upside to <code class="inline-code">$1,319.56</code> vs. a <code class="inline-code">-14.0%</code> distance to the <code class="inline-code">$782.66</code> volatility stop (<code class="inline-code">2x ATR</code>), the setup offers a <strong><code class="inline-code">3.2x</code> reward-to-risk ratio</strong> and <strong><code class="inline-code">+19.0%</code> expected return</strong> (<code class="inline-code">56%</code> blended win probability). That beats the <code class="inline-code">4.5%</code> bond hurdle by <span class="ticker-badge">4.2x</span>, while our unlinked-portfolio safeguard caps the order at <code class="inline-code">$3,000</code> so worst-case loss at stop is just <span class="ticker-badge">$382</span> (<code class="inline-code">0.25%</code> of equity).</li><li class="memo-card"><strong><code class="inline-code">TSM</code> (Taiwan Semiconductor) @ <code class="inline-code">$426.80</code> — Multi-Factor Quality Pullback Clearing the Risk-Free Hurdle</strong></li><li class="memo-card"><strong>Why It&#x27;s Mispriced:</strong> A <code class="inline-code">-5.8%</code> pullback over the past 30 days has washed out short-term momentum (<code class="inline-code">RSI 46</code> and below its <code class="inline-code">$434.00</code> Anchored VWAP) on muted <code class="inline-code">0.46x</code> relative volume (orderly profit-taking, not panic liquidation), creating a disconnect between weak near-term price action and accelerating fundamentals. The numbers justify buying the weakness: forward P/E compresses to <span class="ticker-badge">17.9x</span> down from <code class="inline-code">27.1x</code> trailing as earnings expand, an attractive <strong><code class="inline-code">0.76</code> PEG ratio</strong> (growth at a discount), a <strong><code class="inline-code">9/9</code> Piotroski F-Score</strong> and <code class="inline-code">100%</code> historical earnings beat rate confirming zero balance-sheet distress.</li><li class="memo-card"><strong>Signal &amp; Flow Justification:</strong> On the flow side, 13F filings show <strong>16% Institutional Float</strong>, US Congress disclosures show <strong>Net Buys: 3 vs 1</strong>, retail sentiment is <code class="inline-code">WSB #95 (Neutral)</code>. Note that the 6M Quant ML model remains cautious (<code class="inline-code">-11.7%</code> projected alpha) due to recent drawdown volatility even though structural trend signals (<code class="inline-code">Above Anchored VWAP, Golden Cross (50 &gt; 200 DMA)</code>) remain intact — which is why we pair fundamental/whale conviction with a strict ATR stop rather than buying unhedged.</li><li class="memo-card"><strong>Kelly Bet &amp; Risk Math:</strong> <strong><code class="inline-code">3 × $1k</code> (<code class="inline-code">$3,000</code> tactical entry / <code class="inline-code">2.0%</code> of portfolio, <code class="inline-code">7</code> shares)</strong> — With <code class="inline-code">+36.9%</code> upside to <code class="inline-code">$584.39</code> vs. a <code class="inline-code">-8.2%</code> distance to the <code class="inline-code">$391.77</code> volatility stop (<code class="inline-code">2x ATR</code>), the setup offers a <strong><code class="inline-code">4.5x</code> reward-to-risk ratio</strong> and <strong><code class="inline-code">+16.1%</code> expected return</strong> (<code class="inline-code">54%</code> blended win probability). That beats the <code class="inline-code">4.5%</code> bond hurdle by <span class="ticker-badge">3.6x</span>, while our unlinked-portfolio safeguard caps the order at <code class="inline-code">$3,000</code> so worst-case loss at stop is just <span class="ticker-badge">$245</span> (<code class="inline-code">0.16%</code> of equity).</li><li class="memo-card"><strong><code class="inline-code">NVDA</code> (NVIDIA Corp) @ <code class="inline-code">$215.90</code> — Deep-Value Secular Compounder Priced at a Fraction of Growth</strong></li><li class="memo-card"><strong>Why It&#x27;s Mispriced:</strong> A <code class="inline-code">-5.7%</code> pullback over the past 30 days has washed out short-term momentum (<code class="inline-code">RSI 44</code> and below its <code class="inline-code">$222.91</code> Anchored VWAP) on muted <code class="inline-code">0.51x</code> relative volume (orderly profit-taking, not panic liquidation), creating a disconnect between weak near-term price action and accelerating fundamentals. The numbers justify buying the weakness: forward P/E compresses to <span class="ticker-badge">13.3x</span> down from <code class="inline-code">26.7x</code> trailing as earnings expand, a <strong><code class="inline-code">0.26</code> PEG ratio</strong> that prices in almost zero secular growth, a <strong><code class="inline-code">8/9</code> Piotroski F-Score</strong> and <code class="inline-code">100%</code> historical earnings beat rate confirming zero balance-sheet distress.</li><li class="memo-card"><strong>Signal &amp; Flow Justification:</strong> On the flow side, 13F filings show <strong>Druckenmiller Core AI Conviction</strong>, US Congress disclosures show <strong>Split: 15 Buys / 14 Sells</strong>, corporate insiders are <strong>cluster-buying</strong>, retail sentiment is <code class="inline-code">WSB #13 (Bullish)</code>. Note that the 6M Quant ML model remains cautious (<code class="inline-code">-11.5%</code> projected alpha) due to recent drawdown volatility even though structural trend signals (<code class="inline-code">Above Anchored VWAP, Golden Cross (50 &gt; 200 DMA)</code>) remain intact — which is why we pair fundamental/whale conviction with a strict ATR stop rather than buying unhedged.</li><li class="memo-card"><strong>Kelly Bet &amp; Risk Math:</strong> <strong><code class="inline-code">3 × $1k</code> (<code class="inline-code">$3,000</code> tactical entry / <code class="inline-code">2.0%</code> of portfolio, <code class="inline-code">14</code> shares)</strong> — With <code class="inline-code">+32.0%</code> upside to <code class="inline-code">$285.02</code> vs. a <code class="inline-code">-7.1%</code> distance to the <code class="inline-code">$200.54</code> volatility stop (<code class="inline-code">2x ATR</code>), the setup offers a <strong><code class="inline-code">4.5x</code> reward-to-risk ratio</strong> and <strong><code class="inline-code">+14.6%</code> expected return</strong> (<code class="inline-code">55%</code> blended win probability). That beats the <code class="inline-code">4.5%</code> bond hurdle by <span class="ticker-badge">3.2x</span>, while our unlinked-portfolio safeguard caps the order at <code class="inline-code">$3,000</code> so worst-case loss at stop is just <span class="ticker-badge">$215</span> (<code class="inline-code">0.14%</code> of equity).</li><li class="memo-card"><strong><code class="inline-code">ASML</code> (ASML Holding N.V.) @ <code class="inline-code">$1,596.66</code> — Oversold Quality Dip with Fortress Balance Sheet &amp; Multiple Compression</strong></li><li class="memo-card"><strong>Why It&#x27;s Mispriced:</strong> A <code class="inline-code">-9.9%</code> pullback over the past 30 days has washed out short-term momentum (<code class="inline-code">RSI 39</code>) on muted <code class="inline-code">0.47x</code> relative volume (orderly profit-taking, not panic liquidation), creating a disconnect between weak near-term price action and accelerating fundamentals. The numbers justify buying the weakness: forward P/E compresses to <span class="ticker-badge">25.0x</span> down from <code class="inline-code">38.7x</code> trailing as earnings expand, an attractive <strong><code class="inline-code">0.89</code> PEG ratio</strong> (growth at a discount), a <strong><code class="inline-code">9/9</code> Piotroski F-Score</strong> and <code class="inline-code">75%</code> historical earnings beat rate confirming zero balance-sheet distress.</li><li class="memo-card"><strong>Signal &amp; Flow Justification:</strong> On the flow side, 13F filings show <strong>Inst. Accumulation (+20.6%)</strong>, US Congress disclosures show <strong>1 Buys / 0 Sells</strong>, retail sentiment is <code class="inline-code">WSB #72 (Bullish)</code>. Note that the 6M Quant ML model remains cautious (<code class="inline-code">-7.8%</code> projected alpha) due to recent drawdown volatility even though structural trend signals (<code class="inline-code">Above Anchored VWAP, Golden Cross (50 &gt; 200 DMA)</code>) remain intact — which is why we pair fundamental/whale conviction with a strict ATR stop rather than buying unhedged.</li><li class="memo-card"><strong>Kelly Bet &amp; Risk Math:</strong> <strong><code class="inline-code">3 × $1k</code> (<code class="inline-code">$3,000</code> tactical entry / <code class="inline-code">1.9%</code> of portfolio, <code class="inline-code">2</code> shares)</strong> — With <code class="inline-code">+34.7%</code> upside to <code class="inline-code">$2,150.19</code> vs. a <code class="inline-code">-9.1%</code> distance to the <code class="inline-code">$1,450.83</code> volatility stop (<code class="inline-code">2x ATR</code>), the setup offers a <strong><code class="inline-code">3.8x</code> reward-to-risk ratio</strong> and <strong><code class="inline-code">+13.5%</code> expected return</strong> (<code class="inline-code">52%</code> blended win probability). That beats the <code class="inline-code">4.5%</code> bond hurdle by <span class="ticker-badge">3.0x</span>, while our unlinked-portfolio safeguard caps the order at <code class="inline-code">$3,000</code> so worst-case loss at stop is just <span class="ticker-badge">$292</span> (<code class="inline-code">0.19%</code> of equity).</li></ul><h2 class="section-title">3. What to Trim or Avoid Now (Where the Signals Flash Warning)</h2><ul class="memo-list"><li class="memo-card">🔴 <strong>Take Profits on <code class="inline-code">BRK-B</code> (Berkshire Hathaway Inc) @ <code class="inline-code">$545.95</code> — Euphoria Exhaustion (<code class="inline-code">RSI 76</code>):</strong></li><li class="memo-card"><strong>Why We Trim Here:</strong> After a <code class="inline-code">+8.5%</code> 30-day run (trading at <code class="inline-code">24.2x</code> P/E and <code class="inline-code">10.06</code> PEG), momentum has entered overbought euphoria (<code class="inline-code">RSI 76</code>), leaving just <code class="inline-code">+2.5%</code> distance to Wall Street&#x27;s <code class="inline-code">$555.67</code> consensus target. Holding here means risking a drawdown to the <code class="inline-code">$529.63</code> volatility stop for virtually zero remaining upside — failing the <code class="inline-code">4.5%</code> cash hurdle. Lock in profits or trail a tight stop at <span class="ticker-badge">$529.63</span>.</li><li class="memo-card">🔴 <strong>Take Profits on <code class="inline-code">SHEL.L</code> (Shell PLC) @ <code class="inline-code">3,999.5p</code> — Euphoria Exhaustion (<code class="inline-code">RSI 73</code>):</strong></li><li class="memo-card"><strong>Why We Trim Here:</strong> After a <code class="inline-code">+9.4%</code> 30-day run (trading at <code class="inline-code">9.6x</code> P/E and <code class="inline-code">1.81</code> PEG), momentum has entered overbought euphoria (<code class="inline-code">RSI 73</code>), leaving just <code class="inline-code">-0.1%</code> distance to Wall Street&#x27;s <code class="inline-code">4,016.5p</code> consensus target. Holding here means risking a drawdown to the <code class="inline-code">3,791.2p</code> volatility stop for virtually zero remaining upside — failing the <code class="inline-code">4.5%</code> cash hurdle. Lock in profits or trail a tight stop at <span class="ticker-badge">3,791.2p</span>.</li><li class="memo-card">🔴 <strong>Exit / Trim <code class="inline-code">SGLN.L</code> (iShares Physical Gold ETC) @ <code class="inline-code">5,837.0p</code> — Technical Breakdown (<code class="inline-code">RSI 32</code>):</strong></li><li class="memo-card"><strong>Why We Step Aside:</strong> Price has slipped <code class="inline-code">-3.2%</code> over 30 days into a confirmed <code class="inline-code">DOWNTREND</code> regime (<code class="inline-code">RSI 32</code>, below key moving averages) without fundamental valuation support to cushion the fall. Exit into strength or enforce a strict stop at <span class="ticker-badge">5,648.6p</span> rather than catching a falling knife.</li><li class="memo-card">⚠️ <strong>Avoid Chasing <code class="inline-code">AAPL</code> (Apple Inc) @ <code class="inline-code">$342.95</code> — Classic Momentum Bull Trap (<code class="inline-code">Kelly Bet: $0</code>):</strong></li><li class="memo-card"><strong>Why the Signals Disagree with the Chart:</strong> On the surface, <code class="inline-code">AAPL</code> looks safe because it trades above both its 50-DMA and 200-DMA. However, three fundamental and smart-money signals flash red: (1) valuation is stretched at <strong><code class="inline-code">36.4x</code> P/E</strong> (<code class="inline-code">2.79</code> PEG), (2) the stock already sits <strong><code class="inline-code">5.3%</code> above</strong> Wall Street&#x27;s <code class="inline-code">$329.25</code> target (negative expected return), and (3) US Congress members are actively selling into strength (<span class="ticker-badge">Net Sells: 14 vs 9</span>). When smart money distributes above fair value, <strong>Quarter-Kelly allocates <code class="inline-code">$0</code> — stay in <code class="inline-code">4.5%</code> bonds.</strong></li><li class="memo-card">⚡ <strong>Imminent Earnings Landmines (Next 5 Days):</strong> <span class="ticker-badge">000660.KS</span> (1d), <span class="ticker-badge">MSFT</span> (2d), <span class="ticker-badge">NOW</span> (2d), <span class="ticker-badge">GOOGL</span> (2d), <span class="ticker-badge">AMZN</span> (3d), <span class="ticker-badge">SHEL.L</span> (3d)</li><li class="memo-card"><strong>Why Position Sizing Must Shrink:</strong> Reporting within days turns a directional thesis into a binary volatility event where an overnight gap can jump straight past a <code class="inline-code">2x ATR</code> stop loss. For any setup reporting this week (such as <code class="inline-code">AMZN</code>), either cut pre-print entries in half (<code class="inline-code">$500</code> starter tranches) or wait to buy the post-earnings reaction.</li></ul><h2 class="section-title">4. Actionable Bet Sizing Cheat Sheet ($150k Portfolio)</h2><p class="para">Every setup below clears the <strong><code class="inline-code">4.5%</code> risk-free bond hurdle</strong> using <strong>Quarter-Kelly</strong> tactical sizing (capped at <strong><code class="inline-code">1–3 × $1k</code> (<code class="inline-code">$1,000–$3,000</code>)</strong> / max <code class="inline-code">2.0%</code> of equity and max <code class="inline-code">$375</code> stop risk per trade when existing holdings are unlinked; upload your IG positions CSV on the <strong>Kelly Sizing</strong> tab to deduct existing shares):</p><div class="table-wrap"><table class="data-table"><thead><tr><th>Ticker</th><th>Thesis Role</th><th>Price</th><th>Bet Size ($1k Units)</th><th>Shares</th><th>Stop Loss</th><th>Target</th><th>R:R</th><th>Dollar Risk @ Stop</th></tr></thead><tbody><tr><td><span class="ticker-badge">MU</span></td><td>Core Conviction</td><td><code class="inline-code">$910.04</code></td><td><strong><code class="inline-code">3 × $1k</code> (<code class="inline-code">$3,000</code>)</strong></td><td><code class="inline-code">3</code></td><td><code class="inline-code">$782.66</code></td><td><code class="inline-code">$1,319.56</code></td><td><span class="ticker-badge">3.2x</span></td><td><code class="inline-code">$382</code></td></tr><tr><td><span class="ticker-badge">TSM</span></td><td>Core Conviction</td><td><code class="inline-code">$426.80</code></td><td><strong><code class="inline-code">3 × $1k</code> (<code class="inline-code">$3,000</code>)</strong></td><td><code class="inline-code">7</code></td><td><code class="inline-code">$391.77</code></td><td><code class="inline-code">$584.39</code></td><td><span class="ticker-badge">4.5x</span></td><td><code class="inline-code">$245</code></td></tr><tr><td><span class="ticker-badge">NVDA</span></td><td>Core Conviction</td><td><code class="inline-code">$215.90</code></td><td><strong><code class="inline-code">3 × $1k</code> (<code class="inline-code">$3,000</code>)</strong></td><td><code class="inline-code">14</code></td><td><code class="inline-code">$200.54</code></td><td><code class="inline-code">$285.02</code></td><td><span class="ticker-badge">4.5x</span></td><td><code class="inline-code">$215</code></td></tr><tr><td><span class="ticker-badge">ASML</span></td><td>Core Conviction</td><td><code class="inline-code">$1,596.66</code></td><td><strong><code class="inline-code">3 × $1k</code> (<code class="inline-code">$3,000</code>)</strong></td><td><code class="inline-code">2</code></td><td><code class="inline-code">$1,450.83</code></td><td><code class="inline-code">$2,150.19</code></td><td><span class="ticker-badge">3.8x</span></td><td><code class="inline-code">$292</code></td></tr><tr><td><span class="ticker-badge">XYZ</span></td><td>Core Conviction</td><td><code class="inline-code">$74.10</code></td><td><strong><code class="inline-code">2 × $1k</code> (<code class="inline-code">$2,000</code>)</strong></td><td><code class="inline-code">27</code></td><td><code class="inline-code">$68.13</code></td><td><code class="inline-code">$98.15</code></td><td><span class="ticker-badge">4.0x</span></td><td><code class="inline-code">$161</code></td></tr><tr><td><span class="ticker-badge">AVGO</span></td><td>Core Conviction</td><td><code class="inline-code">$330.31</code></td><td><strong><code class="inline-code">2 × $1k</code> (<code class="inline-code">$2,000</code>)</strong></td><td><code class="inline-code">6</code></td><td><code class="inline-code">$302.24</code></td><td><code class="inline-code">$456.62</code></td><td><span class="ticker-badge">4.5x</span></td><td><code class="inline-code">$168</code></td></tr><tr><td><span class="ticker-badge">AMZN</span></td><td>⚡ Earnings (3d)</td><td><code class="inline-code">$249.16</code></td><td><strong><code class="inline-code">1 × $1k</code> (<code class="inline-code">$1,000</code>)</strong></td><td><code class="inline-code">4</code></td><td><code class="inline-code">$231.82</code></td><td><code class="inline-code">$327.22</code></td><td><span class="ticker-badge">4.5x</span></td><td><code class="inline-code">$69</code></td></tr><tr><td><span class="ticker-badge">META</span></td><td>Core Conviction</td><td><code class="inline-code">$638.54</code></td><td><strong><code class="inline-code">2 × $1k</code> (<code class="inline-code">$2,000</code>)</strong></td><td><code class="inline-code">3</code></td><td><code class="inline-code">$573.95</code></td><td><code class="inline-code">$844.77</code></td><td><span class="ticker-badge">3.2x</span></td><td><code class="inline-code">$194</code></td></tr><tr><td><span class="ticker-badge">FIG</span></td><td>Core Conviction</td><td><code class="inline-code">$23.18</code></td><td><strong><code class="inline-code">1 × $1k</code> (<code class="inline-code">$1,000</code>)</strong></td><td><code class="inline-code">43</code></td><td><code class="inline-code">$20.00</code></td><td><code class="inline-code">$30.10</code></td><td><span class="ticker-badge">2.2x</span></td><td><code class="inline-code">$137</code></td></tr></tbody></table></div>
+    <div class="tracked-box"><div class="tracked-title">Snapshot Tracked Ideas (2026-10-26 21:52:27 UTC)</div><div class="tracked-grid"><div class="pick-chip"><span class="pick-sym">MU</span> <span class="pick-price">@ $910.04</span> <span class="pick-meta">(TOP_BUY • 3x $1k ($3,000 total))</span></div><div class="pick-chip"><span class="pick-sym">TSM</span> <span class="pick-price">@ $426.80</span> <span class="pick-meta">(TOP_BUY • 3x $1k ($3,000 total))</span></div><div class="pick-chip"><span class="pick-sym">NVDA</span> <span class="pick-price">@ $215.90</span> <span class="pick-meta">(TOP_BUY • 3x $1k ($3,000 total))</span></div><div class="pick-chip"><span class="pick-sym">ASML</span> <span class="pick-price">@ $1,596.66</span> <span class="pick-meta">(TOP_BUY • 3x $1k ($3,000 total))</span></div><div class="pick-chip"><span class="pick-sym">XYZ</span> <span class="pick-price">@ $74.10</span> <span class="pick-meta">(TOP_BUY • 2x $1k ($2,000 total))</span></div><div class="pick-chip"><span class="pick-sym">AVGO</span> <span class="pick-price">@ $330.31</span> <span class="pick-meta">(TOP_BUY • 2x $1k ($2,000 total))</span></div><div class="pick-chip"><span class="pick-sym">AMZN</span> <span class="pick-price">@ $249.16</span> <span class="pick-meta">(TOP_BUY • 1x $1k ($1,000 total))</span></div><div class="pick-chip"><span class="pick-sym">META</span> <span class="pick-price">@ $638.54</span> <span class="pick-meta">(TOP_BUY • 2x $1k ($2,000 total))</span></div><div class="pick-chip"><span class="pick-sym">FIG</span> <span class="pick-price">@ $23.18</span> <span class="pick-meta">(TOP_BUY • 1x $1k ($1,000 total))</span></div><div class="pick-chip"><span class="pick-sym">BRK-B</span> <span class="pick-price">@ $545.95</span> <span class="pick-meta">(TRIM_PROFIT • Trim / Take Profit)</span></div><div class="pick-chip"><span class="pick-sym">SHEL.L</span> <span class="pick-price">@ 3,999.5p</span> <span class="pick-meta">(TRIM_PROFIT • Trim / Take Profit)</span></div></div></div>
+    <div class="footer-note">
+      <span>Generated by Buffetter 5-Pillar Quantitative Engine & Quarter-Kelly Sizer</span>
+      <span>ID: 2026-10-26-215227-market-briefing</span>
+    </div>
+  </article>
+</body>
+</html>

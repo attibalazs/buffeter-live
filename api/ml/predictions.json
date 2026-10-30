@@ -1,0 +1,3813 @@
+[
+  {
+    "symbol": "QS",
+    "company_name": "QS",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 3.97,
+    "predicted_alpha_6m_pct": 53.3,
+    "predicted_alpha_12m_pct": 2.74,
+    "predicted_return_6m_pct": 57.3,
+    "predicted_return_12m_pct": 10.74,
+    "beat_market_prob_6m_pct": 25.4,
+    "ml_action": "BUY",
+    "confidence_score": 90,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      },
+      {
+        "name": "Extended Below 200 DMA",
+        "impact": "Structural Lag",
+        "type": "negative"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CLOV",
+    "company_name": "CLOV",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 4.79,
+    "predicted_alpha_6m_pct": 22.63,
+    "predicted_alpha_12m_pct": 20.3,
+    "predicted_return_6m_pct": 26.63,
+    "predicted_return_12m_pct": 28.3,
+    "beat_market_prob_6m_pct": 63.2,
+    "ml_action": "BUY",
+    "confidence_score": 88,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PCG",
+    "company_name": "PCG",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 13.13,
+    "predicted_alpha_6m_pct": 14.87,
+    "predicted_alpha_12m_pct": 10.16,
+    "predicted_return_6m_pct": 18.87,
+    "predicted_return_12m_pct": 18.16,
+    "beat_market_prob_6m_pct": 64.0,
+    "ml_action": "BUY",
+    "confidence_score": 77,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Extended Below 200 DMA",
+        "impact": "Structural Lag",
+        "type": "negative"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLE",
+    "company_name": "XLE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 65.08,
+    "predicted_alpha_6m_pct": 11.05,
+    "predicted_alpha_12m_pct": -9.89,
+    "predicted_return_6m_pct": 15.05,
+    "predicted_return_12m_pct": -1.89,
+    "beat_market_prob_6m_pct": 65.4,
+    "ml_action": "STRONG_BUY",
+    "confidence_score": 79,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "OXY",
+    "company_name": "OXY",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 60.11,
+    "predicted_alpha_6m_pct": 9.44,
+    "predicted_alpha_12m_pct": -9.73,
+    "predicted_return_6m_pct": 13.44,
+    "predicted_return_12m_pct": -1.73,
+    "beat_market_prob_6m_pct": 59.2,
+    "ml_action": "BUY",
+    "confidence_score": 69,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "LYFT",
+    "company_name": "LYFT",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 16.22,
+    "predicted_alpha_6m_pct": 9.23,
+    "predicted_alpha_12m_pct": 7.19,
+    "predicted_return_6m_pct": 13.23,
+    "predicted_return_12m_pct": 15.19,
+    "beat_market_prob_6m_pct": 53.6,
+    "ml_action": "BUY",
+    "confidence_score": 68,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "RIVN",
+    "company_name": "RIVN",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 13.96,
+    "predicted_alpha_6m_pct": 8.41,
+    "predicted_alpha_12m_pct": 12.2,
+    "predicted_return_6m_pct": 12.41,
+    "predicted_return_12m_pct": 20.2,
+    "beat_market_prob_6m_pct": 41.5,
+    "ml_action": "BUY",
+    "confidence_score": 67,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "INTC",
+    "company_name": "INTC",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 104.7,
+    "predicted_alpha_6m_pct": 5.93,
+    "predicted_alpha_12m_pct": -18.03,
+    "predicted_return_6m_pct": 9.93,
+    "predicted_return_12m_pct": -10.03,
+    "beat_market_prob_6m_pct": 38.7,
+    "ml_action": "BUY",
+    "confidence_score": 63,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "EOG",
+    "company_name": "EOG",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 148.16,
+    "predicted_alpha_6m_pct": 5.86,
+    "predicted_alpha_12m_pct": -18.74,
+    "predicted_return_6m_pct": 9.86,
+    "predicted_return_12m_pct": -10.74,
+    "beat_market_prob_6m_pct": 57.3,
+    "ml_action": "BUY",
+    "confidence_score": 63,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SHEL.L",
+    "company_name": "SHEL.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 4043.5,
+    "predicted_alpha_6m_pct": 5.38,
+    "predicted_alpha_12m_pct": -25.69,
+    "predicted_return_6m_pct": 9.38,
+    "predicted_return_12m_pct": -17.69,
+    "beat_market_prob_6m_pct": 54.1,
+    "ml_action": "BUY",
+    "confidence_score": 63,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CVX",
+    "company_name": "CVX",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 211.98,
+    "predicted_alpha_6m_pct": 3.96,
+    "predicted_alpha_12m_pct": -16.12,
+    "predicted_return_6m_pct": 7.96,
+    "predicted_return_12m_pct": -8.12,
+    "beat_market_prob_6m_pct": 62.1,
+    "ml_action": "BUY",
+    "confidence_score": 60,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XOM",
+    "company_name": "XOM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 168.94,
+    "predicted_alpha_6m_pct": 3.37,
+    "predicted_alpha_12m_pct": -17.3,
+    "predicted_return_6m_pct": 7.37,
+    "predicted_return_12m_pct": -9.3,
+    "beat_market_prob_6m_pct": 62.9,
+    "ml_action": "BUY",
+    "confidence_score": 60,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SMGB.L",
+    "company_name": "SMGB.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 71.72,
+    "predicted_alpha_6m_pct": 2.36,
+    "predicted_alpha_12m_pct": -4.34,
+    "predicted_return_6m_pct": 6.36,
+    "predicted_return_12m_pct": 3.66,
+    "beat_market_prob_6m_pct": 34.2,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "COP",
+    "company_name": "COP",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 134.1,
+    "predicted_alpha_6m_pct": 2.08,
+    "predicted_alpha_12m_pct": -15.83,
+    "predicted_return_6m_pct": 6.08,
+    "predicted_return_12m_pct": -7.83,
+    "beat_market_prob_6m_pct": 55.6,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PM",
+    "company_name": "PM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 201.19,
+    "predicted_alpha_6m_pct": 1.52,
+    "predicted_alpha_12m_pct": -16.51,
+    "predicted_return_6m_pct": 5.52,
+    "predicted_return_12m_pct": -8.51,
+    "beat_market_prob_6m_pct": 63.8,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "JD",
+    "company_name": "JD",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 27.09,
+    "predicted_alpha_6m_pct": 1.48,
+    "predicted_alpha_12m_pct": -5.77,
+    "predicted_return_6m_pct": 5.48,
+    "predicted_return_12m_pct": 2.23,
+    "beat_market_prob_6m_pct": 52.7,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "WDEF.L",
+    "company_name": "WDEF.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 31.72,
+    "predicted_alpha_6m_pct": 0.91,
+    "predicted_alpha_12m_pct": 1.36,
+    "predicted_return_6m_pct": 4.91,
+    "predicted_return_12m_pct": 9.36,
+    "beat_market_prob_6m_pct": 67.4,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "PANIC_SELLOFF",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "F",
+    "company_name": "F",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 12.17,
+    "predicted_alpha_6m_pct": 0.33,
+    "predicted_alpha_12m_pct": 2.52,
+    "predicted_return_6m_pct": 4.33,
+    "predicted_return_12m_pct": 10.52,
+    "beat_market_prob_6m_pct": 62.8,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "MRK",
+    "company_name": "MRK",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 145.6,
+    "predicted_alpha_6m_pct": 0.27,
+    "predicted_alpha_12m_pct": -10.39,
+    "predicted_return_6m_pct": 4.27,
+    "predicted_return_12m_pct": -2.39,
+    "beat_market_prob_6m_pct": 48.2,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SPCE",
+    "company_name": "SPCE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 2.84,
+    "predicted_alpha_6m_pct": -0.14,
+    "predicted_alpha_12m_pct": -37.35,
+    "predicted_return_6m_pct": 3.86,
+    "predicted_return_12m_pct": -29.35,
+    "beat_market_prob_6m_pct": 28.9,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "FCX",
+    "company_name": "FCX",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 73.69,
+    "predicted_alpha_6m_pct": -0.36,
+    "predicted_alpha_12m_pct": -2.4,
+    "predicted_return_6m_pct": 3.64,
+    "predicted_return_12m_pct": 5.6,
+    "beat_market_prob_6m_pct": 38.0,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLU",
+    "company_name": "XLU",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 41.41,
+    "predicted_alpha_6m_pct": -0.46,
+    "predicted_alpha_12m_pct": -18.72,
+    "predicted_return_6m_pct": 3.54,
+    "predicted_return_12m_pct": -10.72,
+    "beat_market_prob_6m_pct": 62.6,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLP",
+    "company_name": "XLP",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 83.43,
+    "predicted_alpha_6m_pct": -0.51,
+    "predicted_alpha_12m_pct": -13.24,
+    "predicted_return_6m_pct": 3.49,
+    "predicted_return_12m_pct": -5.24,
+    "beat_market_prob_6m_pct": 59.9,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SO",
+    "company_name": "SO",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 86.17,
+    "predicted_alpha_6m_pct": -0.57,
+    "predicted_alpha_12m_pct": -10.73,
+    "predicted_return_6m_pct": 3.43,
+    "predicted_return_12m_pct": -2.73,
+    "beat_market_prob_6m_pct": 69.4,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PFE",
+    "company_name": "PFE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 28.28,
+    "predicted_alpha_6m_pct": -0.66,
+    "predicted_alpha_12m_pct": -9.18,
+    "predicted_return_6m_pct": 3.34,
+    "predicted_return_12m_pct": -1.18,
+    "beat_market_prob_6m_pct": 64.6,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AFRM",
+    "company_name": "AFRM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 80.7,
+    "predicted_alpha_6m_pct": -0.7,
+    "predicted_alpha_12m_pct": -13.11,
+    "predicted_return_6m_pct": 3.3,
+    "predicted_return_12m_pct": -5.11,
+    "beat_market_prob_6m_pct": 34.9,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SLB",
+    "company_name": "SLB",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 48.95,
+    "predicted_alpha_6m_pct": -0.99,
+    "predicted_alpha_12m_pct": -5.76,
+    "predicted_return_6m_pct": 3.01,
+    "predicted_return_12m_pct": 2.24,
+    "beat_market_prob_6m_pct": 42.6,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PLD",
+    "company_name": "PLD",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 129.49,
+    "predicted_alpha_6m_pct": -1.07,
+    "predicted_alpha_12m_pct": -14.72,
+    "predicted_return_6m_pct": 2.93,
+    "predicted_return_12m_pct": -6.72,
+    "beat_market_prob_6m_pct": 65.8,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "VMID.L",
+    "company_name": "VMID.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 37.2,
+    "predicted_alpha_6m_pct": -1.11,
+    "predicted_alpha_12m_pct": -5.1,
+    "predicted_return_6m_pct": 2.89,
+    "predicted_return_12m_pct": 2.9,
+    "beat_market_prob_6m_pct": 53.0,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "QSR",
+    "company_name": "QSR",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 70.95,
+    "predicted_alpha_6m_pct": -1.21,
+    "predicted_alpha_12m_pct": -7.68,
+    "predicted_return_6m_pct": 2.79,
+    "predicted_return_12m_pct": 0.32,
+    "beat_market_prob_6m_pct": 64.6,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLB",
+    "company_name": "XLB",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 49.43,
+    "predicted_alpha_6m_pct": -1.25,
+    "predicted_alpha_12m_pct": -11.44,
+    "predicted_return_6m_pct": 2.75,
+    "predicted_return_12m_pct": -3.44,
+    "beat_market_prob_6m_pct": 63.8,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "VUSA.L",
+    "company_name": "VUSA.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 107.48,
+    "predicted_alpha_6m_pct": -1.46,
+    "predicted_alpha_12m_pct": -11.38,
+    "predicted_return_6m_pct": 2.54,
+    "predicted_return_12m_pct": -3.38,
+    "beat_market_prob_6m_pct": 49.0,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AEP",
+    "company_name": "AEP",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 122.81,
+    "predicted_alpha_6m_pct": -1.48,
+    "predicted_alpha_12m_pct": -16.12,
+    "predicted_return_6m_pct": 2.52,
+    "predicted_return_12m_pct": -8.12,
+    "beat_market_prob_6m_pct": 62.0,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLRE",
+    "company_name": "XLRE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 41.61,
+    "predicted_alpha_6m_pct": -1.55,
+    "predicted_alpha_12m_pct": -10.76,
+    "predicted_return_6m_pct": 2.45,
+    "predicted_return_12m_pct": -2.76,
+    "beat_market_prob_6m_pct": 60.7,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "KO",
+    "company_name": "KO",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 88.05,
+    "predicted_alpha_6m_pct": -1.61,
+    "predicted_alpha_12m_pct": -5.83,
+    "predicted_return_6m_pct": 2.39,
+    "predicted_return_12m_pct": 2.17,
+    "beat_market_prob_6m_pct": 50.7,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "WMT",
+    "company_name": "WMT",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 111.35,
+    "predicted_alpha_6m_pct": -2.0,
+    "predicted_alpha_12m_pct": -25.08,
+    "predicted_return_6m_pct": 2.0,
+    "predicted_return_12m_pct": -17.08,
+    "beat_market_prob_6m_pct": 53.1,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "NEE",
+    "company_name": "NEE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 77.38,
+    "predicted_alpha_6m_pct": -2.11,
+    "predicted_alpha_12m_pct": -18.22,
+    "predicted_return_6m_pct": 1.89,
+    "predicted_return_12m_pct": -10.22,
+    "beat_market_prob_6m_pct": 58.5,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SBUX",
+    "company_name": "SBUX",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 90.75,
+    "predicted_alpha_6m_pct": -2.13,
+    "predicted_alpha_12m_pct": -15.67,
+    "predicted_return_6m_pct": 1.87,
+    "predicted_return_12m_pct": -7.67,
+    "beat_market_prob_6m_pct": 54.5,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "PANIC_SELLOFF",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PEP",
+    "company_name": "PEP",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 125.97,
+    "predicted_alpha_6m_pct": -2.25,
+    "predicted_alpha_12m_pct": -24.89,
+    "predicted_return_6m_pct": 1.75,
+    "predicted_return_12m_pct": -16.89,
+    "beat_market_prob_6m_pct": 54.9,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "DUK",
+    "company_name": "DUK",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 116.65,
+    "predicted_alpha_6m_pct": -2.27,
+    "predicted_alpha_12m_pct": -16.68,
+    "predicted_return_6m_pct": 1.73,
+    "predicted_return_12m_pct": -8.68,
+    "beat_market_prob_6m_pct": 61.9,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "DIS",
+    "company_name": "DIS",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 108.05,
+    "predicted_alpha_6m_pct": -2.33,
+    "predicted_alpha_12m_pct": -12.43,
+    "predicted_return_6m_pct": 1.67,
+    "predicted_return_12m_pct": -4.43,
+    "beat_market_prob_6m_pct": 50.6,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "VFEM.L",
+    "company_name": "VFEM.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 56.96,
+    "predicted_alpha_6m_pct": -2.44,
+    "predicted_alpha_12m_pct": -10.47,
+    "predicted_return_6m_pct": 1.56,
+    "predicted_return_12m_pct": -2.47,
+    "beat_market_prob_6m_pct": 67.9,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "VWRP.L",
+    "company_name": "VWRP.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 140.66,
+    "predicted_alpha_6m_pct": -2.67,
+    "predicted_alpha_12m_pct": -12.83,
+    "predicted_return_6m_pct": 1.33,
+    "predicted_return_12m_pct": -4.83,
+    "beat_market_prob_6m_pct": 49.7,
+    "ml_action": "HOLD",
+    "confidence_score": 65,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CAT",
+    "company_name": "CAT",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 800.47,
+    "predicted_alpha_6m_pct": -3.07,
+    "predicted_alpha_12m_pct": -28.9,
+    "predicted_return_6m_pct": 0.93,
+    "predicted_return_12m_pct": -20.9,
+    "beat_market_prob_6m_pct": 31.8,
+    "ml_action": "TRIM",
+    "confidence_score": 64,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "O",
+    "company_name": "O",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 54.18,
+    "predicted_alpha_6m_pct": -3.18,
+    "predicted_alpha_12m_pct": -25.07,
+    "predicted_return_6m_pct": 0.82,
+    "predicted_return_12m_pct": -17.07,
+    "beat_market_prob_6m_pct": 51.8,
+    "ml_action": "TRIM",
+    "confidence_score": 64,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "DOCU",
+    "company_name": "DOCU",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 71.08,
+    "predicted_alpha_6m_pct": -3.2,
+    "predicted_alpha_12m_pct": -13.31,
+    "predicted_return_6m_pct": 0.8,
+    "predicted_return_12m_pct": -5.31,
+    "beat_market_prob_6m_pct": 38.3,
+    "ml_action": "TRIM",
+    "confidence_score": 64,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PG",
+    "company_name": "PG",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 151.23,
+    "predicted_alpha_6m_pct": -3.21,
+    "predicted_alpha_12m_pct": -14.22,
+    "predicted_return_6m_pct": 0.79,
+    "predicted_return_12m_pct": -6.22,
+    "beat_market_prob_6m_pct": 53.2,
+    "ml_action": "TRIM",
+    "confidence_score": 64,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLF",
+    "company_name": "XLF",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 54.73,
+    "predicted_alpha_6m_pct": -3.51,
+    "predicted_alpha_12m_pct": -11.64,
+    "predicted_return_6m_pct": 0.49,
+    "predicted_return_12m_pct": -3.64,
+    "beat_market_prob_6m_pct": 46.2,
+    "ml_action": "TRIM",
+    "confidence_score": 65,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLY",
+    "company_name": "XLY",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 112.85,
+    "predicted_alpha_6m_pct": -3.56,
+    "predicted_alpha_12m_pct": -14.05,
+    "predicted_return_6m_pct": 0.44,
+    "predicted_return_12m_pct": -6.05,
+    "beat_market_prob_6m_pct": 39.2,
+    "ml_action": "TRIM",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "ABBV",
+    "company_name": "ABBV",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 276.47,
+    "predicted_alpha_6m_pct": -3.67,
+    "predicted_alpha_12m_pct": -33.1,
+    "predicted_return_6m_pct": 0.33,
+    "predicted_return_12m_pct": -25.1,
+    "beat_market_prob_6m_pct": 47.9,
+    "ml_action": "TRIM",
+    "confidence_score": 65,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "HLT",
+    "company_name": "HLT",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 326.56,
+    "predicted_alpha_6m_pct": -3.82,
+    "predicted_alpha_12m_pct": -24.49,
+    "predicted_return_6m_pct": 0.18,
+    "predicted_return_12m_pct": -16.49,
+    "beat_market_prob_6m_pct": 55.3,
+    "ml_action": "TRIM",
+    "confidence_score": 65,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLC",
+    "company_name": "XLC",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 110.38,
+    "predicted_alpha_6m_pct": -3.83,
+    "predicted_alpha_12m_pct": -11.85,
+    "predicted_return_6m_pct": 0.17,
+    "predicted_return_12m_pct": -3.85,
+    "beat_market_prob_6m_pct": 44.0,
+    "ml_action": "TRIM",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "BAC",
+    "company_name": "BAC",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 54.32,
+    "predicted_alpha_6m_pct": -3.96,
+    "predicted_alpha_12m_pct": -9.68,
+    "predicted_return_6m_pct": 0.04,
+    "predicted_return_12m_pct": -1.68,
+    "beat_market_prob_6m_pct": 41.5,
+    "ml_action": "TRIM",
+    "confidence_score": 65,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "LIN",
+    "company_name": "LIN",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 483.73,
+    "predicted_alpha_6m_pct": -3.99,
+    "predicted_alpha_12m_pct": -25.67,
+    "predicted_return_6m_pct": 0.01,
+    "predicted_return_12m_pct": -17.67,
+    "beat_market_prob_6m_pct": 59.2,
+    "ml_action": "TRIM",
+    "confidence_score": 65,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "COHR",
+    "company_name": "COHR",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 312.62,
+    "predicted_alpha_6m_pct": -4.11,
+    "predicted_alpha_12m_pct": -36.63,
+    "predicted_return_6m_pct": -0.11,
+    "predicted_return_12m_pct": -28.63,
+    "beat_market_prob_6m_pct": 25.0,
+    "ml_action": "TRIM",
+    "confidence_score": 66,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "APD",
+    "company_name": "APD",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 281.26,
+    "predicted_alpha_6m_pct": -4.17,
+    "predicted_alpha_12m_pct": -20.88,
+    "predicted_return_6m_pct": -0.17,
+    "predicted_return_12m_pct": -12.88,
+    "beat_market_prob_6m_pct": 62.9,
+    "ml_action": "TRIM",
+    "confidence_score": 66,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "GE",
+    "company_name": "GE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 308.2,
+    "predicted_alpha_6m_pct": -4.22,
+    "predicted_alpha_12m_pct": -17.49,
+    "predicted_return_6m_pct": -0.22,
+    "predicted_return_12m_pct": -9.49,
+    "beat_market_prob_6m_pct": 51.3,
+    "ml_action": "TRIM",
+    "confidence_score": 66,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "COST",
+    "company_name": "COST",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 946.92,
+    "predicted_alpha_6m_pct": -4.59,
+    "predicted_alpha_12m_pct": -26.05,
+    "predicted_return_6m_pct": -0.59,
+    "predicted_return_12m_pct": -18.05,
+    "beat_market_prob_6m_pct": 53.3,
+    "ml_action": "TRIM",
+    "confidence_score": 66,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PSA",
+    "company_name": "PSA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 289.86,
+    "predicted_alpha_6m_pct": -4.6,
+    "predicted_alpha_12m_pct": -11.24,
+    "predicted_return_6m_pct": -0.6,
+    "predicted_return_12m_pct": -3.24,
+    "beat_market_prob_6m_pct": 62.6,
+    "ml_action": "TRIM",
+    "confidence_score": 66,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "WDC",
+    "company_name": "WDC",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 397.28,
+    "predicted_alpha_6m_pct": -4.73,
+    "predicted_alpha_12m_pct": -27.72,
+    "predicted_return_6m_pct": -0.73,
+    "predicted_return_12m_pct": -19.72,
+    "beat_market_prob_6m_pct": 28.9,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "JNJ",
+    "company_name": "JNJ",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 261.44,
+    "predicted_alpha_6m_pct": -4.75,
+    "predicted_alpha_12m_pct": -27.08,
+    "predicted_return_6m_pct": -0.75,
+    "predicted_return_12m_pct": -19.08,
+    "beat_market_prob_6m_pct": 47.1,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "RTX",
+    "company_name": "RTX",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 185.97,
+    "predicted_alpha_6m_pct": -4.83,
+    "predicted_alpha_12m_pct": -17.53,
+    "predicted_return_6m_pct": -0.83,
+    "predicted_return_12m_pct": -9.53,
+    "beat_market_prob_6m_pct": 58.7,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CSPX.L",
+    "company_name": "CSPX.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 820.0,
+    "predicted_alpha_6m_pct": -4.9,
+    "predicted_alpha_12m_pct": -23.49,
+    "predicted_return_6m_pct": -0.9,
+    "predicted_return_12m_pct": -15.49,
+    "beat_market_prob_6m_pct": 46.7,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "UNP",
+    "company_name": "UNP",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 278.34,
+    "predicted_alpha_6m_pct": -4.9,
+    "predicted_alpha_12m_pct": -27.76,
+    "predicted_return_6m_pct": -0.9,
+    "predicted_return_12m_pct": -19.76,
+    "beat_market_prob_6m_pct": 56.1,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "IWFV.L",
+    "company_name": "IWFV.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 5843.0,
+    "predicted_alpha_6m_pct": -5.05,
+    "predicted_alpha_12m_pct": -18.38,
+    "predicted_return_6m_pct": -1.05,
+    "predicted_return_12m_pct": -10.38,
+    "beat_market_prob_6m_pct": 49.9,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLV",
+    "company_name": "XLV",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 170.81,
+    "predicted_alpha_6m_pct": -5.06,
+    "predicted_alpha_12m_pct": -16.86,
+    "predicted_return_6m_pct": -1.06,
+    "predicted_return_12m_pct": -8.86,
+    "beat_market_prob_6m_pct": 49.3,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "V",
+    "company_name": "V",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 385.45,
+    "predicted_alpha_6m_pct": -5.21,
+    "predicted_alpha_12m_pct": -27.85,
+    "predicted_return_6m_pct": -1.21,
+    "predicted_return_12m_pct": -19.85,
+    "beat_market_prob_6m_pct": 46.4,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "MA",
+    "company_name": "MA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 589.14,
+    "predicted_alpha_6m_pct": -5.29,
+    "predicted_alpha_12m_pct": -22.2,
+    "predicted_return_6m_pct": -1.29,
+    "predicted_return_12m_pct": -14.2,
+    "beat_market_prob_6m_pct": 50.4,
+    "ml_action": "TRIM",
+    "confidence_score": 67,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "^FTSE",
+    "company_name": "^FTSE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 10723.5,
+    "predicted_alpha_6m_pct": -5.36,
+    "predicted_alpha_12m_pct": -26.91,
+    "predicted_return_6m_pct": -1.36,
+    "predicted_return_12m_pct": -18.91,
+    "beat_market_prob_6m_pct": 50.4,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "META",
+    "company_name": "META",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 621.75,
+    "predicted_alpha_6m_pct": -5.47,
+    "predicted_alpha_12m_pct": -25.9,
+    "predicted_return_6m_pct": -1.47,
+    "predicted_return_12m_pct": -17.9,
+    "beat_market_prob_6m_pct": 23.1,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "IWM",
+    "company_name": "IWM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 278.94,
+    "predicted_alpha_6m_pct": -5.5,
+    "predicted_alpha_12m_pct": -27.2,
+    "predicted_return_6m_pct": -1.5,
+    "predicted_return_12m_pct": -19.2,
+    "beat_market_prob_6m_pct": 36.1,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CMI",
+    "company_name": "CMI",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 523.39,
+    "predicted_alpha_6m_pct": -5.57,
+    "predicted_alpha_12m_pct": -35.02,
+    "predicted_return_6m_pct": -1.57,
+    "predicted_return_12m_pct": -27.02,
+    "beat_market_prob_6m_pct": 50.0,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "HON",
+    "company_name": "HON",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 207.73,
+    "predicted_alpha_6m_pct": -5.63,
+    "predicted_alpha_12m_pct": -25.09,
+    "predicted_return_6m_pct": -1.63,
+    "predicted_return_12m_pct": -17.09,
+    "beat_market_prob_6m_pct": 59.7,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "LLY",
+    "company_name": "LLY",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 1179.27,
+    "predicted_alpha_6m_pct": -5.8,
+    "predicted_alpha_12m_pct": -27.06,
+    "predicted_return_6m_pct": -1.8,
+    "predicted_return_12m_pct": -19.06,
+    "beat_market_prob_6m_pct": 41.1,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SHW",
+    "company_name": "SHW",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 319.36,
+    "predicted_alpha_6m_pct": -5.93,
+    "predicted_alpha_12m_pct": -18.08,
+    "predicted_return_6m_pct": -1.93,
+    "predicted_return_12m_pct": -10.08,
+    "beat_market_prob_6m_pct": 50.8,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SGLN.L",
+    "company_name": "SGLN.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 5639.0,
+    "predicted_alpha_6m_pct": -5.97,
+    "predicted_alpha_12m_pct": -35.22,
+    "predicted_return_6m_pct": -1.97,
+    "predicted_return_12m_pct": -27.22,
+    "beat_market_prob_6m_pct": 41.8,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "DOWNTREND",
+    "top_signals": [],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SPY",
+    "company_name": "SPY",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 778.57,
+    "predicted_alpha_6m_pct": -5.99,
+    "predicted_alpha_12m_pct": -18.94,
+    "predicted_return_6m_pct": -1.99,
+    "predicted_return_12m_pct": -10.94,
+    "beat_market_prob_6m_pct": 0.9,
+    "ml_action": "TRIM",
+    "confidence_score": 68,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "BRK-B",
+    "company_name": "BRK-B",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 546.76,
+    "predicted_alpha_6m_pct": -6.02,
+    "predicted_alpha_12m_pct": -26.19,
+    "predicted_return_6m_pct": -2.02,
+    "predicted_return_12m_pct": -18.19,
+    "beat_market_prob_6m_pct": 50.5,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "C",
+    "company_name": "C",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 129.64,
+    "predicted_alpha_6m_pct": -6.09,
+    "predicted_alpha_12m_pct": -20.82,
+    "predicted_return_6m_pct": -2.09,
+    "predicted_return_12m_pct": -12.82,
+    "beat_market_prob_6m_pct": 35.0,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "JPM",
+    "company_name": "JPM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 339.2,
+    "predicted_alpha_6m_pct": -6.1,
+    "predicted_alpha_12m_pct": -23.83,
+    "predicted_return_6m_pct": -2.1,
+    "predicted_return_12m_pct": -15.83,
+    "beat_market_prob_6m_pct": 47.5,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AZN.L",
+    "company_name": "AZN.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 13990.0,
+    "predicted_alpha_6m_pct": -6.2,
+    "predicted_alpha_12m_pct": -36.95,
+    "predicted_return_6m_pct": -2.2,
+    "predicted_return_12m_pct": -28.95,
+    "beat_market_prob_6m_pct": 44.1,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "DOWNTREND",
+    "top_signals": [],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AXP",
+    "company_name": "AXP",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 308.17,
+    "predicted_alpha_6m_pct": -6.22,
+    "predicted_alpha_12m_pct": -18.42,
+    "predicted_return_6m_pct": -2.22,
+    "predicted_return_12m_pct": -10.42,
+    "beat_market_prob_6m_pct": 55.6,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CMCSA",
+    "company_name": "CMCSA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 20.66,
+    "predicted_alpha_6m_pct": -6.24,
+    "predicted_alpha_12m_pct": 4.04,
+    "predicted_return_6m_pct": -2.24,
+    "predicted_return_12m_pct": 12.04,
+    "beat_market_prob_6m_pct": 54.5,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "PANIC_SELLOFF",
+    "top_signals": [
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      },
+      {
+        "name": "Extended Below 200 DMA",
+        "impact": "Structural Lag",
+        "type": "negative"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CMG",
+    "company_name": "CMG",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 31.59,
+    "predicted_alpha_6m_pct": -6.25,
+    "predicted_alpha_12m_pct": -10.02,
+    "predicted_return_6m_pct": -2.25,
+    "predicted_return_12m_pct": -2.02,
+    "beat_market_prob_6m_pct": 54.4,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "DOWNTREND",
+    "top_signals": [],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "DE",
+    "company_name": "DE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 620.93,
+    "predicted_alpha_6m_pct": -6.41,
+    "predicted_alpha_12m_pct": -35.5,
+    "predicted_return_6m_pct": -2.41,
+    "predicted_return_12m_pct": -27.5,
+    "beat_market_prob_6m_pct": 47.2,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AAPL",
+    "company_name": "AAPL",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 347.74,
+    "predicted_alpha_6m_pct": -6.47,
+    "predicted_alpha_12m_pct": -28.93,
+    "predicted_return_6m_pct": -2.47,
+    "predicted_return_12m_pct": -20.93,
+    "beat_market_prob_6m_pct": 41.4,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AMT",
+    "company_name": "AMT",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 182.24,
+    "predicted_alpha_6m_pct": -6.55,
+    "predicted_alpha_12m_pct": -14.12,
+    "predicted_return_6m_pct": -2.55,
+    "predicted_return_12m_pct": -6.12,
+    "beat_market_prob_6m_pct": 45.6,
+    "ml_action": "TRIM",
+    "confidence_score": 69,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "TSLA",
+    "company_name": "TSLA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 401.35,
+    "predicted_alpha_6m_pct": -6.82,
+    "predicted_alpha_12m_pct": -36.66,
+    "predicted_return_6m_pct": -2.82,
+    "predicted_return_12m_pct": -28.66,
+    "beat_market_prob_6m_pct": 28.5,
+    "ml_action": "TRIM",
+    "confidence_score": 70,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLI",
+    "company_name": "XLI",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 169.25,
+    "predicted_alpha_6m_pct": -7.19,
+    "predicted_alpha_12m_pct": -13.99,
+    "predicted_return_6m_pct": -3.19,
+    "predicted_return_12m_pct": -5.99,
+    "beat_market_prob_6m_pct": 46.7,
+    "ml_action": "TRIM",
+    "confidence_score": 70,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CEG",
+    "company_name": "CEG",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 262.46,
+    "predicted_alpha_6m_pct": -7.27,
+    "predicted_alpha_12m_pct": -44.08,
+    "predicted_return_6m_pct": -3.27,
+    "predicted_return_12m_pct": -36.08,
+    "beat_market_prob_6m_pct": 28.5,
+    "ml_action": "TRIM",
+    "confidence_score": 70,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "KSS",
+    "company_name": "KSS",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 20.35,
+    "predicted_alpha_6m_pct": -7.29,
+    "predicted_alpha_12m_pct": 12.85,
+    "predicted_return_6m_pct": -3.29,
+    "predicted_return_12m_pct": 20.85,
+    "beat_market_prob_6m_pct": 36.0,
+    "ml_action": "TRIM",
+    "confidence_score": 70,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PINS",
+    "company_name": "PINS",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 21.4,
+    "predicted_alpha_6m_pct": -7.34,
+    "predicted_alpha_12m_pct": -14.32,
+    "predicted_return_6m_pct": -3.34,
+    "predicted_return_12m_pct": -6.32,
+    "beat_market_prob_6m_pct": 37.7,
+    "ml_action": "TRIM",
+    "confidence_score": 71,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "ITA",
+    "company_name": "ITA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 211.39,
+    "predicted_alpha_6m_pct": -7.4,
+    "predicted_alpha_12m_pct": -14.28,
+    "predicted_return_6m_pct": -3.4,
+    "predicted_return_12m_pct": -6.28,
+    "beat_market_prob_6m_pct": 50.5,
+    "ml_action": "TRIM",
+    "confidence_score": 71,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "GS",
+    "company_name": "GS",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 895.32,
+    "predicted_alpha_6m_pct": -7.43,
+    "predicted_alpha_12m_pct": -30.36,
+    "predicted_return_6m_pct": -3.43,
+    "predicted_return_12m_pct": -22.36,
+    "beat_market_prob_6m_pct": 32.1,
+    "ml_action": "TRIM",
+    "confidence_score": 71,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "UNH",
+    "company_name": "UNH",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 379.3,
+    "predicted_alpha_6m_pct": -7.63,
+    "predicted_alpha_12m_pct": -29.54,
+    "predicted_return_6m_pct": -3.63,
+    "predicted_return_12m_pct": -21.54,
+    "beat_market_prob_6m_pct": 55.8,
+    "ml_action": "TRIM",
+    "confidence_score": 71,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "EQIX",
+    "company_name": "EQIX",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 1026.06,
+    "predicted_alpha_6m_pct": -7.66,
+    "predicted_alpha_12m_pct": -30.94,
+    "predicted_return_6m_pct": -3.66,
+    "predicted_return_12m_pct": -22.94,
+    "beat_market_prob_6m_pct": 39.0,
+    "ml_action": "TRIM",
+    "confidence_score": 71,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "TMO",
+    "company_name": "TMO",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 658.02,
+    "predicted_alpha_6m_pct": -7.82,
+    "predicted_alpha_12m_pct": -35.53,
+    "predicted_return_6m_pct": -3.82,
+    "predicted_return_12m_pct": -27.53,
+    "beat_market_prob_6m_pct": 38.3,
+    "ml_action": "TRIM",
+    "confidence_score": 71,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "ASML",
+    "company_name": "ASML",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 1577.01,
+    "predicted_alpha_6m_pct": -7.83,
+    "predicted_alpha_12m_pct": -23.36,
+    "predicted_return_6m_pct": -3.83,
+    "predicted_return_12m_pct": -15.36,
+    "beat_market_prob_6m_pct": 31.9,
+    "ml_action": "TRIM",
+    "confidence_score": 71,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AMZN",
+    "company_name": "AMZN",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 240.88,
+    "predicted_alpha_6m_pct": -8.17,
+    "predicted_alpha_12m_pct": -32.51,
+    "predicted_return_6m_pct": -4.17,
+    "predicted_return_12m_pct": -24.51,
+    "beat_market_prob_6m_pct": 28.4,
+    "ml_action": "SELL",
+    "confidence_score": 79,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AMD",
+    "company_name": "AMD",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 503.96,
+    "predicted_alpha_6m_pct": -9.23,
+    "predicted_alpha_12m_pct": 2.97,
+    "predicted_return_6m_pct": -5.23,
+    "predicted_return_12m_pct": 10.97,
+    "beat_market_prob_6m_pct": 27.7,
+    "ml_action": "SELL",
+    "confidence_score": 81,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "QQQ",
+    "company_name": "QQQ",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 751.27,
+    "predicted_alpha_6m_pct": -10.06,
+    "predicted_alpha_12m_pct": -15.78,
+    "predicted_return_6m_pct": -6.06,
+    "predicted_return_12m_pct": -7.78,
+    "beat_market_prob_6m_pct": 35.4,
+    "ml_action": "SELL",
+    "confidence_score": 83,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "XLK",
+    "company_name": "XLK",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 198.78,
+    "predicted_alpha_6m_pct": -10.18,
+    "predicted_alpha_12m_pct": -23.89,
+    "predicted_return_6m_pct": -6.18,
+    "predicted_return_12m_pct": -15.89,
+    "beat_market_prob_6m_pct": 29.4,
+    "ml_action": "SELL",
+    "confidence_score": 83,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "MCD",
+    "company_name": "MCD",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 235.23,
+    "predicted_alpha_6m_pct": -10.19,
+    "predicted_alpha_12m_pct": -39.49,
+    "predicted_return_6m_pct": -6.19,
+    "predicted_return_12m_pct": -31.49,
+    "beat_market_prob_6m_pct": 62.1,
+    "ml_action": "SELL",
+    "confidence_score": 83,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Extended Below 200 DMA",
+        "impact": "Structural Lag",
+        "type": "negative"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "S",
+    "company_name": "S",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 24.51,
+    "predicted_alpha_6m_pct": -10.28,
+    "predicted_alpha_12m_pct": 27.37,
+    "predicted_return_6m_pct": -6.28,
+    "predicted_return_12m_pct": 35.37,
+    "beat_market_prob_6m_pct": 35.2,
+    "ml_action": "SELL",
+    "confidence_score": 83,
+    "regime": "EUPHORIA_EXTENDED",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "ABNB",
+    "company_name": "ABNB",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 165.87,
+    "predicted_alpha_6m_pct": -10.55,
+    "predicted_alpha_12m_pct": -20.05,
+    "predicted_return_6m_pct": -6.55,
+    "predicted_return_12m_pct": -12.05,
+    "beat_market_prob_6m_pct": 39.8,
+    "ml_action": "SELL",
+    "confidence_score": 83,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "AVGO",
+    "company_name": "AVGO",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 326.29,
+    "predicted_alpha_6m_pct": -10.82,
+    "predicted_alpha_12m_pct": -32.27,
+    "predicted_return_6m_pct": -6.82,
+    "predicted_return_12m_pct": -24.27,
+    "beat_market_prob_6m_pct": 36.7,
+    "ml_action": "SELL",
+    "confidence_score": 84,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "RR.L",
+    "company_name": "RR.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 1235.8,
+    "predicted_alpha_6m_pct": -10.89,
+    "predicted_alpha_12m_pct": -27.06,
+    "predicted_return_6m_pct": -6.89,
+    "predicted_return_12m_pct": -19.06,
+    "beat_market_prob_6m_pct": 30.3,
+    "ml_action": "SELL",
+    "confidence_score": 84,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "BYND",
+    "company_name": "BYND",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 7.7,
+    "predicted_alpha_6m_pct": -11.08,
+    "predicted_alpha_12m_pct": 1.02,
+    "predicted_return_6m_pct": -7.08,
+    "predicted_return_12m_pct": 9.02,
+    "beat_market_prob_6m_pct": 13.5,
+    "ml_action": "SELL",
+    "confidence_score": 84,
+    "regime": "PANIC_SELLOFF",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      },
+      {
+        "name": "Extended Below 200 DMA",
+        "impact": "Structural Lag",
+        "type": "negative"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "MS",
+    "company_name": "MS",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 190.02,
+    "predicted_alpha_6m_pct": -11.46,
+    "predicted_alpha_12m_pct": -18.9,
+    "predicted_return_6m_pct": -7.46,
+    "predicted_return_12m_pct": -10.9,
+    "beat_market_prob_6m_pct": 37.1,
+    "ml_action": "SELL",
+    "confidence_score": 85,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Oversold Baseline RSI",
+        "impact": "Discount Valuation Entry",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "NVDA",
+    "company_name": "NVDA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 204.94,
+    "predicted_alpha_6m_pct": -11.53,
+    "predicted_alpha_12m_pct": -33.43,
+    "predicted_return_6m_pct": -7.53,
+    "predicted_return_12m_pct": -25.43,
+    "beat_market_prob_6m_pct": 36.6,
+    "ml_action": "SELL",
+    "confidence_score": 85,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "TSM",
+    "company_name": "TSM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 407.53,
+    "predicted_alpha_6m_pct": -11.66,
+    "predicted_alpha_12m_pct": -30.12,
+    "predicted_return_6m_pct": -7.66,
+    "predicted_return_12m_pct": -22.12,
+    "beat_market_prob_6m_pct": 36.7,
+    "ml_action": "SELL",
+    "confidence_score": 85,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "GOOGL",
+    "company_name": "GOOGL",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 280.63,
+    "predicted_alpha_6m_pct": -11.87,
+    "predicted_alpha_12m_pct": -31.57,
+    "predicted_return_6m_pct": -7.87,
+    "predicted_return_12m_pct": -23.57,
+    "beat_market_prob_6m_pct": 29.9,
+    "ml_action": "SELL",
+    "confidence_score": 86,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "HOOD",
+    "company_name": "HOOD",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 109.02,
+    "predicted_alpha_6m_pct": -11.99,
+    "predicted_alpha_12m_pct": -34.18,
+    "predicted_return_6m_pct": -7.99,
+    "predicted_return_12m_pct": -26.18,
+    "beat_market_prob_6m_pct": 32.8,
+    "ml_action": "SELL",
+    "confidence_score": 86,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "BA",
+    "company_name": "BA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 190.37,
+    "predicted_alpha_6m_pct": -14.31,
+    "predicted_alpha_12m_pct": -33.9,
+    "predicted_return_6m_pct": -10.31,
+    "predicted_return_12m_pct": -25.9,
+    "beat_market_prob_6m_pct": 37.4,
+    "ml_action": "SELL",
+    "confidence_score": 90,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CRWD",
+    "company_name": "CRWD",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 275.04,
+    "predicted_alpha_6m_pct": -14.54,
+    "predicted_alpha_12m_pct": -9.65,
+    "predicted_return_6m_pct": -10.54,
+    "predicted_return_12m_pct": -1.65,
+    "beat_market_prob_6m_pct": 24.1,
+    "ml_action": "SELL",
+    "confidence_score": 91,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "MSFT",
+    "company_name": "MSFT",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 522.52,
+    "predicted_alpha_6m_pct": -14.83,
+    "predicted_alpha_12m_pct": -37.64,
+    "predicted_return_6m_pct": -10.83,
+    "predicted_return_12m_pct": -29.64,
+    "beat_market_prob_6m_pct": 24.4,
+    "ml_action": "SELL",
+    "confidence_score": 91,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "NEM",
+    "company_name": "NEM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 117.84,
+    "predicted_alpha_6m_pct": -14.94,
+    "predicted_alpha_12m_pct": -25.9,
+    "predicted_return_6m_pct": -10.94,
+    "predicted_return_12m_pct": -17.9,
+    "beat_market_prob_6m_pct": 30.4,
+    "ml_action": "SELL",
+    "confidence_score": 91,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "QCOM",
+    "company_name": "QCOM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 165.27,
+    "predicted_alpha_6m_pct": -15.06,
+    "predicted_alpha_12m_pct": -27.82,
+    "predicted_return_6m_pct": -11.06,
+    "predicted_return_12m_pct": -19.82,
+    "beat_market_prob_6m_pct": 26.0,
+    "ml_action": "SELL",
+    "confidence_score": 92,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "DASH",
+    "company_name": "DASH",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 196.5,
+    "predicted_alpha_6m_pct": -15.29,
+    "predicted_alpha_12m_pct": -25.3,
+    "predicted_return_6m_pct": -11.29,
+    "predicted_return_12m_pct": -17.3,
+    "beat_market_prob_6m_pct": 33.1,
+    "ml_action": "SELL",
+    "confidence_score": 92,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "NVO",
+    "company_name": "NVO",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 39.92,
+    "predicted_alpha_6m_pct": -15.67,
+    "predicted_alpha_12m_pct": -17.85,
+    "predicted_return_6m_pct": -11.67,
+    "predicted_return_12m_pct": -9.85,
+    "beat_market_prob_6m_pct": 53.9,
+    "ml_action": "SELL",
+    "confidence_score": 93,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SHOP",
+    "company_name": "SHOP",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 156.12,
+    "predicted_alpha_6m_pct": -15.71,
+    "predicted_alpha_12m_pct": -40.92,
+    "predicted_return_6m_pct": -11.71,
+    "predicted_return_12m_pct": -32.92,
+    "beat_market_prob_6m_pct": 23.3,
+    "ml_action": "SELL",
+    "confidence_score": 93,
+    "regime": "EUPHORIA_EXTENDED",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "RPI.L",
+    "company_name": "RPI.L",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 533.0,
+    "predicted_alpha_6m_pct": -15.99,
+    "predicted_alpha_12m_pct": -25.18,
+    "predicted_return_6m_pct": -11.99,
+    "predicted_return_12m_pct": -17.18,
+    "beat_market_prob_6m_pct": 28.2,
+    "ml_action": "SELL",
+    "confidence_score": 93,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "PLTR",
+    "company_name": "PLTR",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 209.05,
+    "predicted_alpha_6m_pct": -16.77,
+    "predicted_alpha_12m_pct": -34.84,
+    "predicted_return_6m_pct": -12.77,
+    "predicted_return_12m_pct": -26.84,
+    "beat_market_prob_6m_pct": 23.6,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "EUPHORIA_EXTENDED",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "CRM",
+    "company_name": "CRM",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 230.71,
+    "predicted_alpha_6m_pct": -17.24,
+    "predicted_alpha_12m_pct": -42.27,
+    "predicted_return_6m_pct": -13.24,
+    "predicted_return_12m_pct": -34.27,
+    "beat_market_prob_6m_pct": 35.4,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "QUALITY_DIP",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "NKE",
+    "company_name": "NKE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 34.71,
+    "predicted_alpha_6m_pct": -17.55,
+    "predicted_alpha_12m_pct": -36.88,
+    "predicted_return_6m_pct": -13.55,
+    "predicted_return_12m_pct": -28.88,
+    "beat_market_prob_6m_pct": 47.9,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Extended Below 200 DMA",
+        "impact": "Structural Lag",
+        "type": "negative"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "OKTA",
+    "company_name": "OKTA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 203.39,
+    "predicted_alpha_6m_pct": -17.9,
+    "predicted_alpha_12m_pct": -9.33,
+    "predicted_return_6m_pct": -13.9,
+    "predicted_return_12m_pct": -1.33,
+    "beat_market_prob_6m_pct": 30.0,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "EUPHORIA_EXTENDED",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "NFLX",
+    "company_name": "NFLX",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 70.3,
+    "predicted_alpha_6m_pct": -18.65,
+    "predicted_alpha_12m_pct": -28.07,
+    "predicted_return_6m_pct": -14.65,
+    "predicted_return_12m_pct": -20.07,
+    "beat_market_prob_6m_pct": 38.0,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Extended Below 200 DMA",
+        "impact": "Structural Lag",
+        "type": "negative"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "SNOW",
+    "company_name": "SNOW",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 368.89,
+    "predicted_alpha_6m_pct": -18.66,
+    "predicted_alpha_12m_pct": -3.69,
+    "predicted_return_6m_pct": -14.66,
+    "predicted_return_12m_pct": 4.31,
+    "beat_market_prob_6m_pct": 26.1,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      },
+      {
+        "name": "Positive Chaikin Money Flow",
+        "impact": "Institutional Inflow",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "NOW",
+    "company_name": "NOW",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 105.04,
+    "predicted_alpha_6m_pct": -18.82,
+    "predicted_alpha_12m_pct": -34.6,
+    "predicted_return_6m_pct": -14.82,
+    "predicted_return_12m_pct": -26.6,
+    "beat_market_prob_6m_pct": 26.9,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "BABA",
+    "company_name": "BABA",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 111.37,
+    "predicted_alpha_6m_pct": -18.95,
+    "predicted_alpha_12m_pct": -39.1,
+    "predicted_return_6m_pct": -14.95,
+    "predicted_return_12m_pct": -31.1,
+    "beat_market_prob_6m_pct": 37.2,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "HD",
+    "company_name": "HD",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 290.74,
+    "predicted_alpha_6m_pct": -19.29,
+    "predicted_alpha_12m_pct": -41.83,
+    "predicted_return_6m_pct": -15.29,
+    "predicted_return_12m_pct": -33.83,
+    "beat_market_prob_6m_pct": 49.0,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "RDDT",
+    "company_name": "RDDT",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 91.66,
+    "predicted_alpha_6m_pct": -19.83,
+    "predicted_alpha_12m_pct": -23.38,
+    "predicted_return_6m_pct": -15.83,
+    "predicted_return_12m_pct": -15.38,
+    "beat_market_prob_6m_pct": 29.6,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "CONSOLIDATION",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "NET",
+    "company_name": "NET",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 272.31,
+    "predicted_alpha_6m_pct": -19.93,
+    "predicted_alpha_12m_pct": 3.88,
+    "predicted_return_6m_pct": -15.93,
+    "predicted_return_12m_pct": 11.88,
+    "beat_market_prob_6m_pct": 24.3,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "ALL_TIME_HIGH",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "BIDU",
+    "company_name": "BIDU",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 76.94,
+    "predicted_alpha_6m_pct": -20.31,
+    "predicted_alpha_12m_pct": -38.29,
+    "predicted_return_6m_pct": -16.31,
+    "predicted_return_12m_pct": -30.29,
+    "beat_market_prob_6m_pct": 31.7,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Extended Below 200 DMA",
+        "impact": "Structural Lag",
+        "type": "negative"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "FIG",
+    "company_name": "FIG",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 21.15,
+    "predicted_alpha_6m_pct": -24.34,
+    "predicted_alpha_12m_pct": -42.77,
+    "predicted_return_6m_pct": -20.34,
+    "predicted_return_12m_pct": -34.77,
+    "beat_market_prob_6m_pct": 30.6,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      },
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "ADBE",
+    "company_name": "ADBE",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 251.39,
+    "predicted_alpha_6m_pct": -24.92,
+    "predicted_alpha_12m_pct": -39.68,
+    "predicted_return_6m_pct": -20.92,
+    "predicted_return_12m_pct": -31.68,
+    "beat_market_prob_6m_pct": 20.0,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "DOWNTREND",
+    "top_signals": [
+      {
+        "name": "Golden Cross (50 > 200 DMA)",
+        "impact": "Primary Secular Trend",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  },
+  {
+    "symbol": "COIN",
+    "company_name": "COIN",
+    "category": "stock",
+    "currency": "USD",
+    "current_price": 179.39,
+    "predicted_alpha_6m_pct": -28.76,
+    "predicted_alpha_12m_pct": -30.39,
+    "predicted_return_6m_pct": -24.76,
+    "predicted_return_12m_pct": -22.39,
+    "beat_market_prob_6m_pct": 18.6,
+    "ml_action": "SELL",
+    "confidence_score": 95,
+    "regime": "RECOVERY_TURNAROUND",
+    "top_signals": [
+      {
+        "name": "Above Anchored VWAP",
+        "impact": "Bullish Accumulation Base",
+        "type": "positive"
+      }
+    ],
+    "updated_at": "2026-10-10 08:13:02"
+  }
+]

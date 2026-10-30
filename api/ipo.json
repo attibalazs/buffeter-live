@@ -1,0 +1,255 @@
+[
+  {
+    "id": "anthropic",
+    "name": "Anthropic PBC",
+    "symbol_placeholder": "ANT",
+    "sector": "Frontier Artificial Intelligence / Claude",
+    "valuation_est": "$1.5T - $2.0T",
+    "status": "Public Form S-1 Filed (SEC EDGAR); Listing on Nasdaq: ANT",
+    "expected_window": "Q4 2026 (Imminent Nasdaq Debut)",
+    "ig_grey_market": true,
+    "ig_grey_market_status": "Active / Expected ahead of Nasdaq roadshow",
+    "ig_grey_market_desc": "IG OTC Grey Market (spread bet / CFD on Day 1 closing market cap) available ahead of Nasdaq debut; cash-settles against official Day 1 closing market cap.",
+    "ig_primarybid_eligible": false,
+    "ig_primarybid_desc": "Not available: IG does not participate in primary US IPO share allocations at the institutional offer price. Buy on Nasdaq Day 1 secondary open or via AMZN / GOOGL proxies.",
+    "subscription_status": "No IG Primary Allocation (Grey Market + Day 1 Open Market)",
+    "subscription_route": "1) IG OTC Grey Market CFD \u2022 2) Day 1 IG Share Dealing \u2022 3) AMZN / GOOGL / AVGO Proxies",
+    "subscription_details": "NO PRIMARY ALLOCATION ON IG: Because Anthropic (Nasdaq: ANT) is a US listing underwritten by Morgan Stanley, Goldman Sachs, JPMorgan, and Citigroup, IG does NOT receive a primary retail share allotment at the institutional IPO offer price (US retail IPO allotments on Robinhood/SoFi/Fidelity are restricted to US residents with SSNs). On IG, you have 3 actionable routes: (1) Pre-IPO via IG's OTC Grey Market (spread bet or CFD speculating on Day 1 closing market cap \u2014 cash-settled, no physical shares), (2) Day 1 Secondary Market physical shares in IG Share Dealing / ISA / SIPP (0% commission, 0.5% FX fee) as soon as the Nasdaq opening auction uncrosses (use a Limit Order, never an uncapped Market Order at the opening cross), or (3) Pre-IPO listed equity & compute proxies AMZN (~20% diluted stake worth $180B-$400B + $110B AWS/Trainium contract) and GOOGL (6.6%+ direct stake + options + $114.5B GCP/TPU contract).",
+    "lockup_period": "180 Days",
+    "lockup_early_release": "Standard post-Q1 earnings acceleration clause (if trading > 125% of offer price)",
+    "lockup_details": "Founders Dario & Daniela Amodei, employees, and strategic corporate backers (Amazon ~20% diluted stake, Alphabet 6.6%+ direct stake) are locked for 180 days post-listing.",
+    "float_risk": "HIGH",
+    "proxy_tickers": [
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com Inc",
+        "note": "Approaching ~20% diluted stake ($180B-$400B implied value) + $110B AWS & Trainium compute commitment through 2036"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc",
+        "note": "6.6%+ direct equity stake + options ($100B+ implied value) + $114.5B Google Cloud & TPU compute commitment (2026-2033)"
+      },
+      {
+        "symbol": "AVGO",
+        "name": "Broadcom Inc",
+        "note": "Co-designs Google's custom AI TPU silicon powering Anthropic's $114.5B GCP compute contract"
+      }
+    ],
+    "recent_news": [],
+    "notes": "Public SEC Form S-1 filed for Nasdaq ticker ANT targeting $1.5T-$2.0T valuation. S-1 revealed $16.29B in H1 2026 revenue (up 14x YoY from $1.16B in H1 2025) and $224.5B+ in combined AWS ($110B) and Google Cloud ($114.5B) compute commitments."
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI Inc",
+    "symbol_placeholder": "OPENAI",
+    "sector": "Frontier Artificial Intelligence",
+    "valuation_est": "$852B - $1.25T+",
+    "status": "Confidential Draft Form S-1 Submitted to SEC; Public Debut Targeted 2027",
+    "expected_window": "2027",
+    "ig_grey_market": false,
+    "ig_grey_market_status": "Pending Public S-1 Filing",
+    "ig_grey_market_desc": "IG Grey Market CFD on Day 1 market cap expected once confidential S-1 flips to public SEC EDGAR filing.",
+    "ig_primarybid_eligible": false,
+    "ig_primarybid_desc": "Not applicable (US listing; no primary retail allotment on IG).",
+    "subscription_status": "No IG Primary Allocation (Use MSFT / NVDA Proxies)",
+    "subscription_route": "Proxy Shares (MSFT, NVDA on IG) \u2022 Future IG OTC Grey Market",
+    "subscription_details": "Confidential draft S-1 submitted to the SEC following its $122B funding round at an $852B private valuation, with management guiding toward a 2027 public debut. As a US listing, IG will not offer primary offer-price share allocations; exposure is available today via MSFT and NVDA on IG Share Dealing, followed by an IG OTC Grey Market CFD once the public S-1 is filed.",
+    "lockup_period": "180 - 365 Days",
+    "lockup_early_release": "Strict Public Benefit Corporation (PBC) & governance restrictions",
+    "lockup_details": "Restructured for-profit Public Benefit Corporation (PBC) equity and employee tender units subject to 180-365 day lock-up agreements.",
+    "float_risk": "VERY HIGH",
+    "proxy_tickers": [
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corp",
+        "note": "Cornerstone $13B+ strategic backer (~27-49% economic participation & exclusive Azure frontier cloud partner)"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp",
+        "note": "Strategic equity investor & primary AI GPU compute supplier"
+      }
+    ],
+    "recent_news": [],
+    "notes": "Valued at $852B in 2026 private tender/funding rounds with confidential SEC S-1 submitted; targeting a 2027 IPO window after Anthropic's Q4 2026 debut."
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks Inc",
+    "symbol_placeholder": "DATA",
+    "sector": "Enterprise AI & Lakehouse Data",
+    "valuation_est": "$190B",
+    "status": "Private ($190B 2026 Valuation); IPO-Ready & Targeting 2027",
+    "expected_window": "2027",
+    "ig_grey_market": true,
+    "ig_grey_market_status": "Anticipated upon public S-1",
+    "ig_grey_market_desc": "Anticipated IG Grey Market derivative once S-1 registration is made public.",
+    "ig_primarybid_eligible": false,
+    "ig_primarybid_desc": "Not available for US tech listings on IG.",
+    "subscription_status": "No IG Primary Allocation (Awaiting Public S-1)",
+    "subscription_route": "IG OTC Grey Market (Pre-IPO) + Day 1 IG Share Dealing",
+    "subscription_details": "Scaled to a $190B private valuation in 2026 with CEO Ali Ghodsi targeting a 2027 public debut. Because Databricks will list in the US (Nasdaq/NYSE), IG will not receive a primary offer-price retail allocation. Trade via IG's Pre-IPO Grey Market CFD upon S-1 filing or buy physical shares on Day 1 secondary open.",
+    "lockup_period": "180 Days",
+    "lockup_early_release": "Early release at 90 days if trading > 125% of IPO price for 10 consecutive trading days",
+    "lockup_details": "VC syndicate (Andreessen Horowitz, NEA, Nvidia, CapitalG) and founders hold >60% of equity, locked for 180 days.",
+    "float_risk": "HIGH",
+    "proxy_tickers": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corp",
+        "note": "Strategic venture investor & GPU infrastructure partner"
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corp",
+        "note": "First-party Azure Databricks commercial partner & investor"
+      }
+    ],
+    "recent_news": [],
+    "notes": "Core enterprise AI & Data Lakehouse platform valued at $190B in 2026 private rounds with >140% net dollar retention."
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe Inc",
+    "symbol_placeholder": "STRIP",
+    "sector": "FinTech / Payment Infrastructure",
+    "valuation_est": "$159B",
+    "status": "Cash-Flow Positive ($159B Feb 2026 Tender Offer); Evaluating 2027 Listing",
+    "expected_window": "2027",
+    "ig_grey_market": true,
+    "ig_grey_market_status": "Anticipated upon formal S-1",
+    "ig_grey_market_desc": "Anticipated Grey Market derivative on Day 1 market cap upon formal SEC filing.",
+    "ig_primarybid_eligible": false,
+    "ig_primarybid_desc": "Not available for standard US listings on IG.",
+    "subscription_status": "No IG Primary Allocation (Private Tender Phase)",
+    "subscription_route": "IG OTC Grey Market (upon S-1) + Day 1 IG Share Dealing",
+    "subscription_details": "Completed a Feb 2026 employee/shareholder tender offer at a $159B valuation while remaining strongly cash-flow positive. As a US listing, IG does not offer primary IPO share subscriptions at the offer price; IG clients can trade the Pre-IPO Grey Market CFD upon S-1 filing or buy physical shares on Day 1 secondary open.",
+    "lockup_period": "180 Days (Phased: 90 / 180)",
+    "lockup_early_release": "Employee partial unlock (up to 25%) anticipated post-Q1 earnings report",
+    "lockup_details": "Founders Patrick and John Collison plus VC backers (Sequoia, a16z) locked for 180 days. Extensive pre-IPO tender offers ($159B valuation) have satisfied early employee liquidity.",
+    "float_risk": "MEDIUM",
+    "proxy_tickers": [],
+    "recent_news": [],
+    "notes": "Dominant global payments infrastructure valued at $159B in Feb 2026 internal tender offers; recurring employee tenders have removed urgency for a rushed IPO."
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut Ltd",
+    "symbol_placeholder": "REVOL",
+    "sector": "FinTech / Global Neo-Banking & Wealth",
+    "valuation_est": "$45B - $115B",
+    "status": "UK Banking Licence Active; Scaling at $115B Secondary Valuation (Nasdaq vs LSE)",
+    "expected_window": "2027 - 2028",
+    "ig_grey_market": true,
+    "ig_grey_market_status": "Anticipated upon filing",
+    "ig_grey_market_desc": "IG Grey Market CFD on market cap expected as public debut approaches.",
+    "ig_primarybid_eligible": true,
+    "ig_primarybid_desc": "Eligible via RetailBook ONLY if Revolut includes a London Stock Exchange (LSE) retail tranche; not eligible if listed exclusively on Nasdaq.",
+    "subscription_status": "Venue Dependent (RetailBook only if London LSE Tranche)",
+    "subscription_route": "RetailBook (if LSE Dual-Listed) or Day 1 IG Share Dealing (if US-Only)",
+    "subscription_details": "Scaled from its $45B 2024 tender to a reported $115B secondary valuation in mid-2026. CEO Nik Storonsky favors a primary US Nasdaq listing (potentially alongside a secondary London LSE tranche). If an LSE retail tranche is included, UK investors can subscribe at the offer price via RetailBook; if US-only, IG access is limited to the Pre-IPO Grey Market CFD and Day 1 open-market Share Dealing.",
+    "lockup_period": "180 Days (Phased: 90 / 180)",
+    "lockup_early_release": "Phased unlock: 25% post-Q1 earnings if trading > 120% of IPO price for 10 consecutive sessions",
+    "lockup_details": "Founders Nik Storonsky and Vlad Yatsenko, alongside institutional backers (SoftBank Vision Fund 2, Tiger Global, Coatue), subject to standard 180-day lock-up.",
+    "float_risk": "HIGH",
+    "proxy_tickers": [
+      {
+        "symbol": "9984.T",
+        "name": "SoftBank Group Corp",
+        "note": "Major equity backer through SoftBank Vision Fund 2"
+      }
+    ],
+    "recent_news": [],
+    "notes": "Europe's most valuable fintech (50M+ users, PRA UK banking licence approved), rising from $45B to $115B in 2026 private secondary transactions."
+  },
+  {
+    "id": "monzo",
+    "name": "Monzo Bank Ltd",
+    "symbol_placeholder": "MONZO",
+    "sector": "FinTech / Digital Banking",
+    "valuation_est": "\u00a36B - \u00a310B ($8B - $13B)",
+    "status": "Morgan Stanley Appointed; Evaluating London (LSE) IPO Window",
+    "expected_window": "2026 - 2027",
+    "ig_grey_market": true,
+    "ig_grey_market_status": "Anticipated upon formal LSE prospectus",
+    "ig_grey_market_desc": "Anticipated IG Grey Market derivative on Day 1 market cap once formal LSE Intention to Float (ITF) is published.",
+    "ig_primarybid_eligible": true,
+    "ig_primarybid_desc": "Very high probability: UK LSE listing rules and retail customer base make RetailBook and UK broker syndicates the standard primary offer-price allocation route.",
+    "subscription_status": "High Probability of UK RetailBook Primary Allocation",
+    "subscription_route": "RetailBook via HL / AJ Bell / ii / UK Broker Syndicate",
+    "subscription_details": "UNLIKE US IPOs, Monzo is a prime candidate for a London Stock Exchange (LSE) listing advised by Morgan Stanley (\u00a36B-\u00a310B valuation). Under modernized FCA UK listing rules and Monzo's crowd-investing heritage, UK retail investors have a very high probability of receiving a genuine primary offer-price share allocation via RetailBook and participating UK brokers, alongside IG Share Dealing on Day 1.",
+    "lockup_period": "180 Days",
+    "lockup_early_release": "Employee partial unlock (up to 20%) post-Q1 earnings if price trades above offer",
+    "lockup_details": "Founders and institutional venture backers (CapitalG, Tencent, Hedosophia, Passion Capital) locked for 180 days. Secondary tender offers have reduced early employee selling pressure.",
+    "float_risk": "MEDIUM",
+    "proxy_tickers": [
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc",
+        "note": "Lead growth investor via Alphabet's CapitalG fund"
+      },
+      {
+        "symbol": "0700.HK",
+        "name": "Tencent Holdings",
+        "note": "Strategic minority equity stake"
+      }
+    ],
+    "recent_news": [],
+    "notes": "UK digital banking leader (>11M customers, full-year profitable, \u00a36B-\u00a310B valuation range) advised by Morgan Stanley ahead of a planned London listing."
+  },
+  {
+    "id": "cerebras",
+    "name": "Cerebras Systems Inc",
+    "symbol_placeholder": "CBRS",
+    "sector": "Wafer-Scale AI Semiconductor Hardware",
+    "valuation_est": "$40B - $66B",
+    "status": "Publicly Listed on Nasdaq (CBRS @ $185 IPO Price) \u2022 180-Day Lock-Up Watch",
+    "expected_window": "Listed 2026 (Lock-Up Cliff Active)",
+    "ig_grey_market": false,
+    "ig_grey_market_status": "Graduated to Live Market (CBRS)",
+    "ig_grey_market_desc": "Pre-IPO Grey Market settled upon Nasdaq debut; now trading live on secondary market.",
+    "ig_primarybid_eligible": false,
+    "ig_primarybid_desc": "Already public on Nasdaq; trade live shares on IG or via foundry partner TSM.",
+    "subscription_status": "Live Secondary Trading on IG (Nasdaq: CBRS)",
+    "subscription_route": "IG Share Dealing / ISA / CFD (Live Market)",
+    "subscription_details": "Completed its blockbuster Nasdaq IPO under ticker CBRS (priced at $185/sh, raising $5.5B+). Available directly as physical shares in IG Share Dealing / ISA or via CFDs, though our anti-survivorship IPO engine flags post-IPO volatility and the 180-day insider lock-up cliff.",
+    "lockup_period": "180 Days",
+    "lockup_early_release": "Standard post-earnings lock-up expiration window",
+    "lockup_details": "Early venture backers (Benchmark, Eclipse, Altimeter, G42) subject to 180-day post-IPO lock-up restrictions.",
+    "float_risk": "HIGH",
+    "proxy_tickers": [
+      {
+        "symbol": "TSM",
+        "name": "Taiwan Semiconductor",
+        "note": "Exclusive 5nm/3nm wafer-scale foundry manufacturing Cerebras WSE-3 engines"
+      }
+    ],
+    "recent_news": [],
+    "notes": "Wafer-scale AI chipmaker that raised $5.5B+ in its 2026 Nasdaq debut (CBRS); tracked on the radar for 180-day post-IPO lock-up cliff supply dynamics."
+  },
+  {
+    "id": "shein",
+    "name": "Shein Group",
+    "symbol_placeholder": "SHEIN",
+    "sector": "Fast Fashion / E-Commerce",
+    "valuation_est": "$26B - $27B",
+    "status": "Listed on Hong Kong Stock Exchange (HKEX) at $26B-$27B (-73% vs Peak)",
+    "expected_window": "Listed 2026 (HKEX Lock-Up Active)",
+    "ig_grey_market": true,
+    "ig_grey_market_status": "HKEX Listed",
+    "ig_grey_market_desc": "Priced on HKEX at $26B-$27B valuation.",
+    "ig_primarybid_eligible": true,
+    "ig_primarybid_desc": "HKEX public tranche completed; no UK RetailBook access.",
+    "subscription_status": "HKEX Secondary Market / IG CFD",
+    "subscription_route": "HKEX Secondary Trading / International Brokers",
+    "subscription_details": "After regulatory blocks in New York and London, Shein completed its IPO on the Hong Kong Stock Exchange (HKEX) raising ~$1.7B at a $26B-$27B valuation (~73% below its $100B 2022 peak due to de minimis tariff headwinds). Tracked for its 180-day institutional / 365-day founder lock-up cliffs.",
+    "lockup_period": "180 Days (365 Days for Founder)",
+    "lockup_early_release": "None under HKEX Listing Authority rules",
+    "lockup_details": "HKEX rules impose a 180-day lock-up on institutional backers (Sequoia China, General Atlantic) and 365 days on founder Chris Xu.",
+    "float_risk": "MEDIUM",
+    "proxy_tickers": [],
+    "recent_news": [],
+    "notes": "Completed HKEX debut at a heavily discounted $26B-$27B valuation amid US/EU small-parcel tariff reforms."
+  }
+]
